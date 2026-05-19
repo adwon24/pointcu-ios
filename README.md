@@ -1,6 +1,6 @@
 # PointCU iOS SDK
 
-CU 걷기 적립 서비스를 메인앱에 통합하기 위한 iOS SDK입니다.  
+ADWON POINT4U 포켓CU 어플리케이션용 iOS SDK입니다.
 Swift Package Manager(SPM)를 통해 배포되며, UIKit / SwiftUI 모두 지원합니다.
 
 ---
