@@ -97,7 +97,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GFPAdManagerDelegate {
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         // NAMSDK 초기화
-        GFPAdManager.setup(withPublisherCd: "YOUR_PUBLISHER_CD", target: self)
+        GFPAdManager.setup(withPublisherCd: "ADWON_PUBLISHER_CD", target: self)
         PointCUSDK.setNAMInitialized()
         return true
     }
