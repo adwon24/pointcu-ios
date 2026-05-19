@@ -28,7 +28,7 @@ let package = Package(
         ),
         // GreenP Offerwall
         .package(
-            url: "https://github.com/rnd-adforus/greenpofferwall-ios-sdk-spm",
+            url: "https://github.com/rnd-adforus/greenpofferwall-ios-sdk-spm.git",
             from: "4.2.0"
         ),
         // NStation Offerwall — 1.9.8 고정
@@ -49,7 +49,7 @@ let package = Package(
             dependencies: [
                 "PointCUSDKBinary",
                 .product(name: "AdPopcornSSPSDK",  package: "ap-ssp-sdk-ios-spm-objc"),
-                .product(name: "GreenPOfferWall",   package: "GreenPOfferwall_iOS_Sample"),
+                .product(name: "GreenPOfferWall",   package: "greenpofferwall-ios-sdk-spm"),
                 .product(name: "NStationOfferwall", package: "iOS-RWD-SPM"),
             ],
             path: "Sources/PointCUSDK"
