@@ -57,7 +57,7 @@ public protocol PointCUFinishDelegate : AnyObject {
   func onMoveInventory()
 }
 public protocol PointCUGameDelegate : AnyObject {
-  func onGameLoadFail(errorCode: Swift.Int, errorMessage: Swift.String)
+  func onGameLoadFail(error: PointCU.PointCUError)
   func onGameComplete(winPoint: Swift.Int)
   func onGameClose()
 }
@@ -66,7 +66,7 @@ public protocol PointCUAdDelegate : AnyObject {
   func onAdShow(type: PointCU.Point4uAd?)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  func onAdFail(type: PointCU.Point4uAd?)
+  func onAdFail(type: PointCU.Point4uAd?, error: PointCU.PointCUError)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   func onAdClose(type: PointCU.Point4uAd?)
@@ -77,6 +77,26 @@ public protocol PointCUAdDelegate : AnyObject {
   #if compiler(>=5.3) && $NonescapableTypes
   func onAdClick(type: PointCU.Point4uAd?)
   #endif
+}
+public enum PointCUErrorCode : Swift.Int {
+  case invalidBirthFormat
+  case missingRequiredField
+  case notInitialized
+  case notRegistered
+  case noAdAvailable
+  case unknown
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct PointCUError : Swift.Error {
+  public let code: PointCU.PointCUErrorCode
+  public let message: Swift.String
+  public init(code: PointCU.PointCUErrorCode, message: Swift.String)
 }
 public enum PointCUGender : Swift.String {
   case male
@@ -134,6 +154,9 @@ public enum Point4uAd : Swift.String {
 extension PointCU.AdsPlacementType : Swift.Equatable {}
 extension PointCU.AdsPlacementType : Swift.Hashable {}
 extension PointCU.AdsPlacementType : Swift.RawRepresentable {}
+extension PointCU.PointCUErrorCode : Swift.Equatable {}
+extension PointCU.PointCUErrorCode : Swift.Hashable {}
+extension PointCU.PointCUErrorCode : Swift.RawRepresentable {}
 extension PointCU.PointCUGender : Swift.Equatable {}
 extension PointCU.PointCUGender : Swift.Hashable {}
 extension PointCU.PointCUGender : Swift.RawRepresentable {}

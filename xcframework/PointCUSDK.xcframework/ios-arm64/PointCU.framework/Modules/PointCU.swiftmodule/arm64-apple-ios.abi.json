@@ -1727,7 +1727,7 @@
           {
             "kind": "Function",
             "name": "onGameLoadFail",
-            "printedName": "onGameLoadFail(errorCode:errorMessage:)",
+            "printedName": "onGameLoadFail(error:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1736,20 +1736,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "PointCUError",
+                "printedName": "PointCU.PointCUError",
+                "usr": "s:7PointCU0A7CUErrorV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7PointCU0A14CUGameDelegateP14onGameLoadFail9errorCode0I7MessageySi_SStF",
-            "mangledName": "$s7PointCU0A14CUGameDelegateP14onGameLoadFail9errorCode0I7MessageySi_SStF",
+            "usr": "s:7PointCU0A14CUGameDelegateP14onGameLoadFail5erroryAA0A7CUErrorV_tF",
+            "mangledName": "$s7PointCU0A14CUGameDelegateP14onGameLoadFail5erroryAA0A7CUErrorV_tF",
             "moduleName": "PointCU",
             "genericSig": "<τ_0_0 where τ_0_0 : PointCU.PointCUGameDelegate>",
             "sugared_genericSig": "<Self where Self : PointCU.PointCUGameDelegate>",
@@ -1888,7 +1882,7 @@
           {
             "kind": "Function",
             "name": "onAdFail",
-            "printedName": "onAdFail(type:)",
+            "printedName": "onAdFail(type:error:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1908,11 +1902,17 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PointCUError",
+                "printedName": "PointCU.PointCUError",
+                "usr": "s:7PointCU0A7CUErrorV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7PointCU0A12CUAdDelegateP8onAdFail4typeyAA07Point4uF0OSg_tF",
-            "mangledName": "$s7PointCU0A12CUAdDelegateP8onAdFail4typeyAA07Point4uF0OSg_tF",
+            "usr": "s:7PointCU0A12CUAdDelegateP8onAdFail4type5erroryAA07Point4uF0OSg_AA0A7CUErrorVtF",
+            "mangledName": "$s7PointCU0A12CUAdDelegateP8onAdFail4type5erroryAA07Point4uF0OSg_AA0A7CUErrorVtF",
             "moduleName": "PointCU",
             "genericSig": "<τ_0_0 where τ_0_0 : PointCU.PointCUAdDelegate>",
             "sugared_genericSig": "<Self where Self : PointCU.PointCUAdDelegate>",
@@ -2062,6 +2062,555 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PointCUErrorCode",
+        "printedName": "PointCUErrorCode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidBirthFormat",
+            "printedName": "invalidBirthFormat",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PointCU.PointCUErrorCode.Type) -> PointCU.PointCUErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointCUErrorCode",
+                    "printedName": "PointCU.PointCUErrorCode",
+                    "usr": "s:7PointCU0A11CUErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PointCU.PointCUErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointCUErrorCode",
+                        "printedName": "PointCU.PointCUErrorCode",
+                        "usr": "s:7PointCU0A11CUErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PointCU0A11CUErrorCodeO18invalidBirthFormatyA2CmF",
+            "mangledName": "$s7PointCU0A11CUErrorCodeO18invalidBirthFormatyA2CmF",
+            "moduleName": "PointCU"
+          },
+          {
+            "kind": "Var",
+            "name": "missingRequiredField",
+            "printedName": "missingRequiredField",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PointCU.PointCUErrorCode.Type) -> PointCU.PointCUErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointCUErrorCode",
+                    "printedName": "PointCU.PointCUErrorCode",
+                    "usr": "s:7PointCU0A11CUErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PointCU.PointCUErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointCUErrorCode",
+                        "printedName": "PointCU.PointCUErrorCode",
+                        "usr": "s:7PointCU0A11CUErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PointCU0A11CUErrorCodeO20missingRequiredFieldyA2CmF",
+            "mangledName": "$s7PointCU0A11CUErrorCodeO20missingRequiredFieldyA2CmF",
+            "moduleName": "PointCU",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notInitialized",
+            "printedName": "notInitialized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PointCU.PointCUErrorCode.Type) -> PointCU.PointCUErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointCUErrorCode",
+                    "printedName": "PointCU.PointCUErrorCode",
+                    "usr": "s:7PointCU0A11CUErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PointCU.PointCUErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointCUErrorCode",
+                        "printedName": "PointCU.PointCUErrorCode",
+                        "usr": "s:7PointCU0A11CUErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PointCU0A11CUErrorCodeO14notInitializedyA2CmF",
+            "mangledName": "$s7PointCU0A11CUErrorCodeO14notInitializedyA2CmF",
+            "moduleName": "PointCU",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notRegistered",
+            "printedName": "notRegistered",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PointCU.PointCUErrorCode.Type) -> PointCU.PointCUErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointCUErrorCode",
+                    "printedName": "PointCU.PointCUErrorCode",
+                    "usr": "s:7PointCU0A11CUErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PointCU.PointCUErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointCUErrorCode",
+                        "printedName": "PointCU.PointCUErrorCode",
+                        "usr": "s:7PointCU0A11CUErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PointCU0A11CUErrorCodeO13notRegisteredyA2CmF",
+            "mangledName": "$s7PointCU0A11CUErrorCodeO13notRegisteredyA2CmF",
+            "moduleName": "PointCU",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "noAdAvailable",
+            "printedName": "noAdAvailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PointCU.PointCUErrorCode.Type) -> PointCU.PointCUErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointCUErrorCode",
+                    "printedName": "PointCU.PointCUErrorCode",
+                    "usr": "s:7PointCU0A11CUErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PointCU.PointCUErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointCUErrorCode",
+                        "printedName": "PointCU.PointCUErrorCode",
+                        "usr": "s:7PointCU0A11CUErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PointCU0A11CUErrorCodeO13noAdAvailableyA2CmF",
+            "mangledName": "$s7PointCU0A11CUErrorCodeO13noAdAvailableyA2CmF",
+            "moduleName": "PointCU",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PointCU.PointCUErrorCode.Type) -> PointCU.PointCUErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointCUErrorCode",
+                    "printedName": "PointCU.PointCUErrorCode",
+                    "usr": "s:7PointCU0A11CUErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PointCU.PointCUErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointCUErrorCode",
+                        "printedName": "PointCU.PointCUErrorCode",
+                        "usr": "s:7PointCU0A11CUErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PointCU0A11CUErrorCodeO7unknownyA2CmF",
+            "mangledName": "$s7PointCU0A11CUErrorCodeO7unknownyA2CmF",
+            "moduleName": "PointCU",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PointCU.PointCUErrorCode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointCUErrorCode",
+                    "printedName": "PointCU.PointCUErrorCode",
+                    "usr": "s:7PointCU0A11CUErrorCodeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7PointCU0A11CUErrorCodeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s7PointCU0A11CUErrorCodeO8rawValueACSgSi_tcfc",
+            "moduleName": "PointCU",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7PointCU0A11CUErrorCodeO8rawValueSivp",
+            "mangledName": "$s7PointCU0A11CUErrorCodeO8rawValueSivp",
+            "moduleName": "PointCU",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PointCU0A11CUErrorCodeO8rawValueSivg",
+                "mangledName": "$s7PointCU0A11CUErrorCodeO8rawValueSivg",
+                "moduleName": "PointCU",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7PointCU0A11CUErrorCodeO",
+        "mangledName": "$s7PointCU0A11CUErrorCodeO",
+        "moduleName": "PointCU",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PointCUError",
+        "printedName": "PointCUError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PointCUErrorCode",
+                "printedName": "PointCU.PointCUErrorCode",
+                "usr": "s:7PointCU0A11CUErrorCodeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7PointCU0A7CUErrorV4codeAA0aC4CodeOvp",
+            "mangledName": "$s7PointCU0A7CUErrorV4codeAA0aC4CodeOvp",
+            "moduleName": "PointCU",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointCUErrorCode",
+                    "printedName": "PointCU.PointCUErrorCode",
+                    "usr": "s:7PointCU0A11CUErrorCodeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PointCU0A7CUErrorV4codeAA0aC4CodeOvg",
+                "mangledName": "$s7PointCU0A7CUErrorV4codeAA0aC4CodeOvg",
+                "moduleName": "PointCU",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7PointCU0A7CUErrorV7messageSSvp",
+            "mangledName": "$s7PointCU0A7CUErrorV7messageSSvp",
+            "moduleName": "PointCU",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PointCU0A7CUErrorV7messageSSvg",
+                "mangledName": "$s7PointCU0A7CUErrorV7messageSSvg",
+                "moduleName": "PointCU",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PointCUError",
+                "printedName": "PointCU.PointCUError",
+                "usr": "s:7PointCU0A7CUErrorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PointCUErrorCode",
+                "printedName": "PointCU.PointCUErrorCode",
+                "usr": "s:7PointCU0A11CUErrorCodeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7PointCU0A7CUErrorV4code7messageAcA0aC4CodeO_SStcfc",
+            "mangledName": "$s7PointCU0A7CUErrorV4code7messageAcA0aC4CodeO_SStcfc",
+            "moduleName": "PointCU",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7PointCU0A7CUErrorV",
+        "mangledName": "$s7PointCU0A7CUErrorV",
+        "moduleName": "PointCU",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2265,8 +2814,7 @@
         "mangledName": "$s7PointCU0A8CUGenderO",
         "moduleName": "PointCU",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "enumRawTypeName": "String",
         "conformances": [
@@ -9927,57 +10475,99 @@
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6914,
+      "length": 4,
+      "value": "1002"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7015,
+      "length": 4,
+      "value": "1003"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7106,
+      "length": 4,
+      "value": "1004"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7180,
+      "length": 4,
+      "value": "1005"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7242,
+      "length": 4,
+      "value": "2001"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7298,
+      "length": 4,
+      "value": "9999"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6870,
+      "offset": 7620,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6905,
+      "offset": 7655,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6940,
+      "offset": 7690,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "StringLiteral",
-      "offset": 7079,
+      "offset": 7829,
       "length": 10,
       "value": "\"D0000283\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "StringLiteral",
-      "offset": 7133,
+      "offset": 7883,
       "length": 10,
       "value": "\"D0000284\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "StringLiteral",
-      "offset": 7184,
+      "offset": 7934,
       "length": 10,
       "value": "\"D0000285\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "StringLiteral",
-      "offset": 7231,
+      "offset": 7981,
       "length": 10,
       "value": "\"D0000286\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 23688,
+      "offset": 24634,
       "length": 5,
       "value": "false"
     },
