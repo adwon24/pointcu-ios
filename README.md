@@ -60,7 +60,7 @@ target 'YourApp' do
 end
 ```
 
-### 1.3 Info.plist 권한 설정
+### 1.3 Info.plist 설정
 
 ```xml
 <!-- 모션/걸음수 측정 권한 -->
@@ -70,6 +70,23 @@ end
 <!-- 광고 추적 권한 (ATT) -->
 <key>NSUserTrackingUsageDescription</key>
 <string>맞춤 광고 제공을 위해 광고 추적 허용이 필요합니다.</string>
+
+<!-- ATS (App Transport Security) 설정 -->
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+    <key>NSExceptionDomains</key>
+    <dict>
+        <key>greenp.kr</key>
+        <dict>
+            <key>NSExceptionAllowsInsecureHTTPLoads</key>
+            <true/>
+            <key>NSIncludesSubdomains</key>
+            <true/>
+        </dict>
+    </dict>
+</dict>
 ```
 
 ### 1.4 Xcode Build Settings
@@ -80,7 +97,55 @@ end
 
 ---
 
-## 2. SDK 초기화
+## 2. NAMAdapter 설정
+
+NAMSDK와 AdPopcornSSP를 연동하기 위한 NAMAdapter 파일이 필요합니다.  
+아래 파일들을 프로젝트에 추가해야 합니다.
+
+### 2.1 필요 파일
+
+| 파일 | 설명 |
+|---|---|
+| `NAMAdapter.h` | NAMAdapter 헤더 파일 |
+| `NAMAdapter.m` | NAMAdapter 구현 파일 |
+| `GFPNativeSimpleAdView.xib` | NAM 네이티브 광고 뷰 레이아웃 |
+| `{YourApp}-Bridging-Header.h` | Swift ↔ Objective-C 브릿지 헤더 |
+
+> ※ 위 파일들은 이 저장소의 `NAMAdapter/` 폴더에 포함되어 있습니다.
+
+### 2.2 프로젝트에 추가하는 방법
+
+1. 위 4개 파일을 Xcode 프로젝트에 드래그하여 추가합니다.
+2. `Build Settings → Swift Compiler - General → Objective-C Bridging Header`에 브릿지 헤더 경로를 설정합니다.
+
+```
+{YourApp}/{YourApp}-Bridging-Header.h
+```
+
+### 2.3 Bridging Header 내용
+
+```objc
+//  {YourApp}-Bridging-Header.h
+#import "NAMAdapter.h"
+```
+
+### 2.4 NAMAdapter keyWindow 수정
+
+NAMAdapter.m의 `getSafeBottomAreaHeight` 메서드는 iOS 13 이상에서 deprecated된 `keyWindow` 대신 아래와 같이 수정되어 있습니다.
+
+```objc
+- (CGFloat)getSafeBottomAreaHeight
+{
+    for (UIWindowScene *scene in [UIApplication sharedApplication].connectedScenes) {
+        if (scene.activationState == UISceneActivationStateForegroundActive) {
+            return scene.windows.firstObject.safeAreaInsets.bottom;
+        }
+    }
+    return 0;
+}
+```
+
+## 3. SDK 초기화
 
 ### AppDelegate 설정 (NAMSDK)
 
@@ -97,8 +162,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GFPAdManagerDelegate {
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         // NAMSDK 초기화
-        GFPAdManager.setup(withPublisherCd: "ADWON_PUBLISHER_CD", target: self)
-        PointCUSDK.setNAMInitialized()
+        GFPAdManager.setup(withPublisherCd: "N256497692", target: self)  // ADWON_PUBLISHER_CD
         return true
     }
 
@@ -111,11 +175,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GFPAdManagerDelegate {
 ```
 
 > ※ ATT 권한 요청은 SDK 진입 시 모션 권한 획득 후 자동으로 순차 처리됩니다.  
-> ※ NAMSDK 초기화 후 반드시 `PointCUSDK.setNAMInitialized()`를 호출해야 합니다.
 
 ---
 
-## 3. SDK 메인 화면 실행
+## 4. SDK 메인 화면 실행
 
 ### 파라미터
 
@@ -164,7 +227,7 @@ let sdkView = PointCUSDK.makeMainView(
 
 ---
 
-## 4. 콜백 (Delegate)
+## 5. 콜백 (Delegate)
 
 ### PointCUFinishDelegate
 
@@ -200,7 +263,7 @@ extension YourViewController: PointCUFinishDelegate {
 
 ---
 
-## 5. 주요 기능 API
+## 6. 주요 기능 API
 
 ### 게임 단독 실행
 
@@ -246,16 +309,18 @@ if PointCUSDK.isRegistered() {
 
 ### 사용자 데이터 삭제
 
-로그아웃 또는 계정 전환 시 호출합니다.
+SDK 내부에서 보관 중인 사용자 데이터(토큰, userId, 걸음 기록 등)를 삭제합니다.  
+**메인앱의 데이터에는 영향을 주지 않습니다.**  
+메인앱에서 로그아웃 또는 계정 전환 시 호출합니다.
 
 ```swift
-// 기기 로컬에 저장된 사용자 관련 데이터 삭제
+// SDK가 보관 중인 사용자 데이터만 삭제 (메인앱 데이터 무관)
 PointCUSDK.clearUserData()
 ```
 
 ---
 
-## 6. 타입 정의
+## 7. 타입 정의
 
 ### PointCUGender
 
@@ -276,7 +341,7 @@ PointCUSDK.clearUserData()
 
 ---
 
-## 7. 에러 코드
+## 8. 에러 코드
 
 | 코드 | 값 | 설명 |
 |---|---|---|
@@ -289,15 +354,16 @@ PointCUSDK.clearUserData()
 
 ---
 
-## 8. 주의사항
+## 9. 주의사항
 
 - SDK 메인 화면은 `fullScreen` 방식으로 present 합니다.
+- `NAMAdapter.h`, `NAMAdapter.m`, `GFPNativeSimpleAdView.xib`를 반드시 프로젝트에 추가해야 합니다.
+- Bridging Header에 `#import "NAMAdapter.h"`를 추가해야 합니다.
 - `userId`는 앱 재설치 후에도 동일한 값을 유지해야 합니다.
 - `birth` 또는 `age` 중 하나는 반드시 입력해야 합니다.
-- NAMSDK는 반드시 AppDelegate에서 초기화 후 `PointCUSDK.setNAMInitialized()`를 호출해야 합니다.
 - ATT 권한 요청은 SDK 진입 시 모션 권한 획득 후 자동으로 순차 처리됩니다. 메인앱에서 별도 요청이 불필요합니다.
 - `User Script Sandboxing`을 `No`로 설정하지 않으면 KissXML 관련 빌드 오류가 발생합니다.
-- `clearUserData()` 호출 시 로컬의 모든 사용자 데이터가 삭제됩니다.
+- `clearUserData()` 호출 시 SDK가 보관 중인 사용자 데이터(토큰, userId, 걸음 기록 등)만 삭제됩니다. 메인앱의 데이터에는 영향을 주지 않습니다.
 - 미등록 사용자(`isRegistered() = false`)는 게임 및 광고 기능을 사용할 수 없습니다.
 
 ---
