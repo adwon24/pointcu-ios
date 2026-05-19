@@ -26,7 +26,7 @@ Swift Package Manager(SPM)를 통해 배포되며, UIKit / SwiftUI 모두 지원
 ## 샘플 프로젝트
 
 PointCU 연동을 위한 샘플 프로젝트입니다.  
-https://github.com/adwon24/pointCu-sample
+https://github.com/adwon24/pointcu-ios-sample
 
 ---
 
