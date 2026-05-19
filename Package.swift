@@ -4,6 +4,8 @@
 // 설치: File → Add Package Dependencies
 //       https://github.com/adwon24/pointcu-ios
 //
+// ※ NAMSDK(GFPSDK)는 SPM 미지원 — 메인 앱 Podfile에 별도 추가 필요
+//   pod 'NAMSDK'
 
 import PackageDescription
 
@@ -26,7 +28,7 @@ let package = Package(
         ),
         // GreenP Offerwall
         .package(
-            url: "https://github.com/rnd-adforus/GreenPOfferwall_iOS_Sample",
+            url: "https://github.com/rnd-adforus/greenpofferwall-ios-sdk-spm",
             from: "4.2.0"
         ),
         // NStation Offerwall — 1.9.8 고정
