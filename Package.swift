@@ -24,7 +24,7 @@ let package = Package(
         // AdPopcornSSP
         .package(
             url: "https://github.com/IGAWorksDev/ap-ssp-sdk-ios-spm-objc",
-            from: "1.0.0"
+            from: "2.11.9"
         ),
         // GreenP Offerwall
         .package(
