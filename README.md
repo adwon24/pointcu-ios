@@ -1,6 +1,6 @@
 # PointCU iOS SDK
 
-ADWON POINT4U 포켓CU 어플리케이션용 iOS SDK입니다.
+ADWON POINT4U 포켓CU 어플리케이션용 iOS SDK입니다.  
 Swift Package Manager(SPM)를 통해 배포되며, UIKit / SwiftUI 모두 지원합니다.
 
 ---
@@ -26,7 +26,7 @@ Swift Package Manager(SPM)를 통해 배포되며, UIKit / SwiftUI 모두 지원
 ## 샘플 프로젝트
 
 PointCU 연동을 위한 샘플 프로젝트입니다.  
-https://github.com/adwon24/pointcu-ios-sample
+https://github.com/adwon24/pointCu-sample
 
 ---
 
@@ -89,7 +89,21 @@ end
 </dict>
 ```
 
-### 1.4 Xcode Build Settings
+### 1.4 Frameworks 추가
+
+메인 앱 타겟에 아래 프레임워크를 추가합니다.
+
+```
+Xcode → Target → General → Frameworks, Libraries, and Embedded Content
+→ + 버튼 → 아래 항목 추가
+```
+
+| Framework | 용도 |
+|---|---|
+| `AdSupport.framework` | 광고 ID (IDFA) 접근 |
+| `AppTrackingTransparency.framework` | ATT 권한 요청 |
+
+### 1.5 Xcode Build Settings
 
 | 설정 항목 | 값 | 설명 |
 |---|---|---|
