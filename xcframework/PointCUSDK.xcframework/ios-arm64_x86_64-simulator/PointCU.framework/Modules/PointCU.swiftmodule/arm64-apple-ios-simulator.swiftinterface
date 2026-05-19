@@ -1,0 +1,142 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PointCU
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+import AdPopcornSSP
+import AdSupport
+import AppTrackingTransparency
+import Combine
+import CoreMotion
+import CoreText
+import CryptoKit
+import DeveloperToolsSupport
+import Foundation
+import GreenpOfferwall
+import ImageIO
+import NStationOfferwall
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum AdsPlacementType : Swift.String, Swift.CaseIterable {
+  case missionTicket
+  case roulette
+  case rouletteView
+  case lottery
+  case moneyBox
+  case bannerHomeSmall
+  case bannerRoulette
+  case bannerMissionTicket
+  case bannerRouletteView
+  case bannerLottery
+  case cuAdNewProduct
+  case cuAdPreOrder
+  case cuAdEat
+  case cuAdInventory
+  case unknown
+  public static func parse(_ code: Swift.String) -> PointCU.AdsPlacementType
+  public var isBanner: Swift.Bool {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias AllCases = [PointCU.AdsPlacementType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [PointCU.AdsPlacementType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol PointCUFinishDelegate : AnyObject {
+  func onMoveInventory()
+}
+public protocol PointCUGameDelegate : AnyObject {
+  func onGameLoadFail(errorCode: Swift.Int, errorMessage: Swift.String)
+  func onGameComplete(winPoint: Swift.Int)
+  func onGameClose()
+}
+public protocol PointCUAdDelegate : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func onAdShow(type: PointCU.Point4uAd?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func onAdFail(type: PointCU.Point4uAd?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func onAdClose(type: PointCU.Point4uAd?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func onAdEarned(type: PointCU.Point4uAd?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func onAdClick(type: PointCU.Point4uAd?)
+  #endif
+}
+public enum PointCUGender : Swift.String {
+  case male
+  case female
+  case unknown
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Point4uAd : Swift.String {
+  case eat
+  case inventory
+  case newProduct
+  case preOrder
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class PointCUSDK {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor public static func makeMainView(userId: Swift.String, birth: Swift.String? = nil, age: Swift.Int? = nil, gender: PointCU.PointCUGender, finishDelegate: (any PointCU.PointCUFinishDelegate)? = nil) -> some SwiftUICore.View
+  
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor public static func makeMainViewController(userId: Swift.String, birth: Swift.String? = nil, age: Swift.Int? = nil, gender: PointCU.PointCUGender, finishDelegate: (any PointCU.PointCUFinishDelegate)? = nil) -> UIKit.UIViewController
+  #endif
+  public static func isRegistered() -> Swift.Bool
+  public static func notifyMoveInventory()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @discardableResult
+  @_Concurrency.MainActor public static func startGameRoulette(delegate: (any PointCU.PointCUGameDelegate)? = nil) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @discardableResult
+  @_Concurrency.MainActor public static func startGameLottery(delegate: (any PointCU.PointCUGameDelegate)? = nil) -> Swift.Bool
+  #endif
+  @_Concurrency.MainActor public static func clearUserData()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor public static func startAdvertise(placement: PointCU.AdsPlacementType, userId: Swift.String, onComplete: (() -> Swift.Void)? = nil, onFail: (() -> Swift.Void)? = nil, onClose: (() -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor public static func startPoint4uAdvertise(type: PointCU.Point4uAd, delegate: (any PointCU.PointCUAdDelegate)? = nil, onComplete: (() -> Swift.Void)? = nil, onFail: (() -> Swift.Void)? = nil)
+  #endif
+  public static func setNAMInitialized()
+  @objc deinit
+}
+extension PointCU.AdsPlacementType : Swift.Equatable {}
+extension PointCU.AdsPlacementType : Swift.Hashable {}
+extension PointCU.AdsPlacementType : Swift.RawRepresentable {}
+extension PointCU.PointCUGender : Swift.Equatable {}
+extension PointCU.PointCUGender : Swift.Hashable {}
+extension PointCU.PointCUGender : Swift.RawRepresentable {}
+extension PointCU.Point4uAd : Swift.Equatable {}
+extension PointCU.Point4uAd : Swift.Hashable {}
+extension PointCU.Point4uAd : Swift.RawRepresentable {}
