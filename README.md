@@ -51,7 +51,7 @@ Xcode에서 아래 순서로 패키지를 추가합니다.
 
 ### 1.2 NAMSDK 별도 설치 (필수)
 
-NAMSDK는 SPM 미지원으로 Podfile에 별도 추가가 필요합니다.
+NAMSDK는 cocoapods 으로 Podfile 에 별도 추가가 필요합니다.
 
 ```ruby
 # Podfile
