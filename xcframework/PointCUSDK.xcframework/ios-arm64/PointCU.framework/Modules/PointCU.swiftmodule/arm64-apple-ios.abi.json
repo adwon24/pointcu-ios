@@ -3706,29 +3706,6 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setNAMInitialized",
-            "printedName": "setNAMInitialized()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7PointCU0A5CUSDKC17setNAMInitializedyyFZ",
-            "mangledName": "$s7PointCU0A5CUSDKC17setNAMInitializedyyFZ",
-            "moduleName": "PointCU",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",

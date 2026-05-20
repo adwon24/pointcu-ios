@@ -148,7 +148,6 @@ public enum Point4uAd : Swift.String {
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public static func startPoint4uAdvertise(type: PointCU.Point4uAd, delegate: (any PointCU.PointCUAdDelegate)? = nil, onComplete: (() -> Swift.Void)? = nil, onFail: (() -> Swift.Void)? = nil)
   #endif
-  public static func setNAMInitialized()
   @objc deinit
 }
 extension PointCU.AdsPlacementType : Swift.Equatable {}
