@@ -9,8 +9,10 @@ Swift Package Manager(SPM)를 통해 배포되며, UIKit / SwiftUI 모두 지원
 
 | 버전 | 날짜 | 내용 |
 |---|---|---|
+| 0.0.4 | 2026.05.21 | 광고 delegate 추가 및 수정 |
+| 0.0.3 | 2026.05.20 | 마이너 업데이트 |
+| 0.0.2 | 2026.05.19 | 마이너 업데이트 |
 | 0.0.1 | 2026.05.19 | 테스트 버전 출시 |
-| 0.0.3 | 2026.05.20 | 버전 업데이트 |
 
 ---
 
@@ -27,7 +29,7 @@ Swift Package Manager(SPM)를 통해 배포되며, UIKit / SwiftUI 모두 지원
 ## 샘플 프로젝트
 
 PointCU 연동을 위한 샘플 프로젝트입니다.  
-https://github.com/adwon24/pointcu-ios-sample
+https://github.com/adwon24/pointCu-sample
 
 ---
 
@@ -52,7 +54,7 @@ Xcode에서 아래 순서로 패키지를 추가합니다.
 
 ### 1.2 NAMSDK 별도 설치 (필수)
 
-NAMSDK는 cocoapods 으로 Podfile 에 별도 추가가 필요합니다.
+NAMSDK는 SPM 미지원으로 Podfile에 별도 추가가 필요합니다.
 
 ```ruby
 # Podfile
@@ -177,7 +179,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GFPAdManagerDelegate {
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         // NAMSDK 초기화
-        GFPAdManager.setup(withPublisherCd: "N256497692", target: self)  // ADWON_PUBLISHER_CD
+        let configuration = GFPAdConfiguration()
+        DispatchQueue.main.async {
+            GFPAdManager.setup(
+                withPublisherCd: "N256497692", // ADWON PUBLISHER CD
+                target: self, 
+                configuration: configuration
+            ) { error in
+                if let error = error {
+                    // NAM SDK 초기화 실패
+                }
+            }
+        }
+
         return true
     }
 
@@ -268,13 +282,13 @@ extension YourViewController: PointCUFinishDelegate {
 
 ### PointCUAdDelegate
 
-| 메서드 | 설명 |
+| 메서드 | 호출 시점 |
 |---|---|
-| `onAdShow(type:)` | 광고 노출 시 호출 |
-| `onAdFail(type:error:)` | 광고 로딩 실패 시 호출 |
-| `onAdClose(type:)` | 광고 종료 시 호출 |
-| `onAdEarned(type:)` | 광고 리워드 적립 시 호출 |
-| `onAdClick(type:)` | 광고 클릭 시 호출 |
+| `onAdShow(type:)` | 광고가 화면에 표시될 때 |
+| `onAdFail(type:error:)` | 모든 광고 로드 실패 시 |
+| `onAdClose(type:)` | 광고 팝업 닫힘 시 |
+| `onAdEarned(type:)` | 광고 페이지 5초 이상 체류 시 |
+| `onAdClick(type:)` | 광고 클릭 시 |
 
 ---
 
@@ -305,12 +319,39 @@ PointCUSDK.startGameLottery(delegate: self)
 | `.preOrder` | 예약 구매 |
 
 ```swift
+// delegate 방식 (권장)
+PointCUSDK.startPoint4uAdvertise(
+    type:     .eat,
+    delegate: self   // PointCUAdDelegate
+)
+
+// 클로저 방식 (delegate 미사용 시)
 PointCUSDK.startPoint4uAdvertise(
     type:       .eat,
-    delegate:   self,        // PointCUAdDelegate (선택)
     onComplete: { print("완료") },
     onFail:     { print("실패") }
 )
+```
+
+```swift
+// PointCUAdDelegate 구현
+extension YourViewController: PointCUAdDelegate {
+    func onAdShow(type: Point4uAd?) { 
+        // 광고 로드 완료
+    }
+    func onAdFail(type: Point4uAd?, error: PointCUError) {
+        // 모든 광고 로드 실패
+    }
+    func onAdClose(type: Point4uAd?) { 
+        // 광고 팝업 닫힘
+    }
+    func onAdEarned(type: Point4uAd?) {
+        // 5초 이상 체류 완료
+    }
+    func onAdClick(type: Point4uAd?) { 
+        // 광고 배너 클릭
+    }
+}
 ```
 
 ### 사용자 등록 여부 확인
