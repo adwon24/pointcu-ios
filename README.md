@@ -415,7 +415,7 @@ PointCUSDK.clearUserData()
 - SDK 메인 화면은 `fullScreen` 방식으로 present 합니다.
 - `NAMAdapter.h`, `NAMAdapter.m`, `GFPNativeSimpleAdView.xib`를 반드시 프로젝트에 추가해야 합니다.
 - Bridging Header에 `#import "NAMAdapter.h"`를 추가해야 합니다.
-- `userId`는 앱 재설치 후에도 동일한 값을 유지해야 합니다.
+- `userId`는 포켓CU 사용자 아이디 값으로 전달해 주면 됩니다.
 - `birth` 또는 `age` 중 하나는 반드시 입력해야 합니다.
 - ATT 권한 요청은 SDK 진입 시 모션 권한 획득 후 자동으로 순차 처리됩니다. 메인앱에서 별도 요청이 불필요합니다.
 - `User Script Sandboxing`을 `No`로 설정하지 않으면 KissXML 관련 빌드 오류가 발생합니다.
