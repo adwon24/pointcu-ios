@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WdCRVotYzt+CLt1bFSqGjkW9BsU=
+		jKo/KS0QReL3WX666BdV41Kb0gM=
 		</data>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FLiTKpNfrlnMavl75s1FxGiqkbw=
+		Q8PAFj/g7n3+aXfRkMczPCBRboY=
 		</data>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uLQmvanSHzhjo8NCwBswlV10TGs=
+		mi/XV8iCu5kQ0PM+utWla26SLgU=
 		</data>
 		<key>Modules/PointCU.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FLiTKpNfrlnMavl75s1FxGiqkbw=
+		Q8PAFj/g7n3+aXfRkMczPCBRboY=
 		</data>
 		<key>Modules/PointCU.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/PointCU.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Y9Y58IWj1RFshOnkuCTOM+M8Blg=
+		+zMlD+I9JIkZLnrvr/sFyNu9T5k=
 		</data>
 		<key>Roboto-Bold.ttf</key>
 		<data>
@@ -86,7 +86,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			USM+gzHuCLr3EB0sKLUf5ZmtjAyOyBVE9UHrcsSzS8s=
+			AEBG8axnFVisQJj7dtW1PFhliflRnzHa1bBAbPqqDoc=
 			</data>
 		</dict>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -114,14 +114,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nSRCwGtOcEbEUHZk7x7OKRm9n4Tv5G48NagIFl/84+0=
+			mZZpJkUdtiJsb0S/+ASCJARBnErTNmJisNB0+fS68Ug=
 			</data>
 		</dict>
 		<key>Modules/PointCU.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			USM+gzHuCLr3EB0sKLUf5ZmtjAyOyBVE9UHrcsSzS8s=
+			AEBG8axnFVisQJj7dtW1PFhliflRnzHa1bBAbPqqDoc=
 			</data>
 		</dict>
 		<key>Modules/PointCU.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -149,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			siiJt+GRui2t9ocRof1UUxCi931XY5fFHrXDMCQ8JRA=
+			1faMuCHqNlbZBxTP22zuZrtIms1ebxHNqZXZe/1/dqQ=
 			</data>
 		</dict>
 		<key>Roboto-Bold.ttf</key>
