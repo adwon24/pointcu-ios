@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Q8PAFj/g7n3+aXfRkMczPCBRboY=
+		dBLfHzzQa9Wnood7JtxsX1RGSTU=
 		</data>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/PointCU.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Q8PAFj/g7n3+aXfRkMczPCBRboY=
+		dBLfHzzQa9Wnood7JtxsX1RGSTU=
 		</data>
 		<key>Modules/PointCU.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -86,7 +86,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AEBG8axnFVisQJj7dtW1PFhliflRnzHa1bBAbPqqDoc=
+			+lZU8Crb7gmfCp7B5q37EzczZxLGrENLMUK3YebXCWQ=
 			</data>
 		</dict>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AEBG8axnFVisQJj7dtW1PFhliflRnzHa1bBAbPqqDoc=
+			+lZU8Crb7gmfCp7B5q37EzczZxLGrENLMUK3YebXCWQ=
 			</data>
 		</dict>
 		<key>Modules/PointCU.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
