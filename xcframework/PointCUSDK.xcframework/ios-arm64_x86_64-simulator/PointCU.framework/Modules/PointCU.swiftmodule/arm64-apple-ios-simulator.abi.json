@@ -6361,28 +6361,28 @@
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "Array",
-      "offset": 41995,
+      "offset": 42086,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 42194,
+      "offset": 42285,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 42364,
+      "offset": 42455,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 42461,
+      "offset": 42552,
       "length": 4,
       "value": "true"
     },
