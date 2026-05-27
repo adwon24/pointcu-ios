@@ -123,7 +123,17 @@ public enum Point4uAd : Swift.String {
     get
   }
 }
+public enum PointCUServerEnvironment {
+  case stg
+  case aws
+  public static func == (a: PointCU.PointCUServerEnvironment, b: PointCU.PointCUServerEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers public class PointCUSDK {
+  public static func setDevServer(_ env: PointCU.PointCUServerEnvironment)
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public static func makeMainView(userId: Swift.String, birth: Swift.String? = nil, age: Swift.Int? = nil, gender: PointCU.PointCUGender, finishDelegate: (any PointCU.PointCUFinishDelegate)? = nil) -> some SwiftUICore.View
   
@@ -162,3 +172,5 @@ extension PointCU.PointCUGender : Swift.RawRepresentable {}
 extension PointCU.Point4uAd : Swift.Equatable {}
 extension PointCU.Point4uAd : Swift.Hashable {}
 extension PointCU.Point4uAd : Swift.RawRepresentable {}
+extension PointCU.PointCUServerEnvironment : Swift.Equatable {}
+extension PointCU.PointCUServerEnvironment : Swift.Hashable {}
