@@ -6109,294 +6109,287 @@
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "StringLiteral",
-      "offset": 17881,
+      "offset": 17855,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "Dictionary",
-      "offset": 18012,
+      "offset": 17986,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 18040,
+      "offset": 18014,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18478,
+      "offset": 18452,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "StringLiteral",
-      "offset": 18540,
+      "offset": 18514,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "StringLiteral",
-      "offset": 18576,
+      "offset": 18550,
       "length": 84,
       "value": "\"[StepManager] 오늘 키에 어제 세션 감지 → \""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "StringLiteral",
-      "offset": 18645,
+      "offset": 18619,
       "length": 6,
       "value": "\" 키로 이동\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18899,
+      "length": 95,
+      "value": "\"[StepManager] 어제 키에 이미 데이터 존재 → 오늘 키만 삭제 (병합 안 함)\""
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 19144,
+      "offset": 19096,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "Array",
-      "offset": 19357,
+      "offset": 19309,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 19591,
+      "offset": 19543,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 19827,
+      "offset": 19779,
       "length": 5,
       "value": "86399"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 19986,
+      "offset": 19938,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 20801,
+      "offset": 20753,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 21193,
+      "offset": 21145,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 21216,
+      "offset": 21168,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 21378,
+      "offset": 21330,
       "length": 5,
       "value": "86399"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 21543,
+      "offset": 21495,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 21933,
+      "offset": 21885,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "Dictionary",
-      "offset": 23814,
+      "offset": 23766,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "StringLiteral",
-      "offset": 24816,
+      "offset": 24768,
       "length": 51,
       "value": "\"[StepManager] backfill 이미 실행 중. 스킵.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 24923,
+      "offset": 24875,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "StringLiteral",
-      "offset": 25070,
+      "offset": 25022,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "Dictionary",
-      "offset": 25201,
+      "offset": 25153,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "Array",
-      "offset": 25305,
+      "offset": 25257,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "StringLiteral",
-      "offset": 25935,
+      "offset": 25887,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 26116,
+      "offset": 26068,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "Array",
-      "offset": 26369,
+      "offset": 26321,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "StringLiteral",
-      "offset": 26494,
+      "offset": 26446,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 26772,
+      "offset": 26724,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 26860,
+      "offset": 26812,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 27215,
+      "offset": 27167,
       "length": 5,
       "value": "86399"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 27354,
+      "offset": 27306,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "StringLiteral",
-      "offset": 27438,
+      "offset": 27390,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 27668,
+      "offset": 27620,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 27850,
+      "offset": 27802,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
-      "kind": "StringLiteral",
-      "offset": 27881,
-      "length": 69,
-      "value": "\"[StepManager] 누락 일자 병렬 복구 완료: \""
-    },
-    {
-      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
-      "kind": "StringLiteral",
-      "offset": 27949,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 28232,
+      "offset": 28187,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "Array",
-      "offset": 43178,
+      "offset": 44056,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 43377,
+      "offset": 44255,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 43547,
+      "offset": 44425,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 43644,
+      "offset": 44522,
       "length": 4,
       "value": "true"
     },
