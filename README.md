@@ -308,6 +308,18 @@ PointCUSDK.startGameRoulette(delegate: self)
 PointCUSDK.startGameLottery(delegate: self)
 ```
 
+### 걸음 수 확인
+```swift
+// 등록 여부 확인 후 실행
+PointCUSDK.getStepCount { steps in
+    if steps == -1 {
+        self.showToast("모션 권한 없음")
+    } else {
+        self.showToast("오늘 걸음수: \(steps)보")
+    }
+}
+```
+
 > ※ `isRegistered()`로 등록 여부를 사전 확인 후 실행하는 것을 권장합니다.
 
 ### CU 자체 광고 노출
