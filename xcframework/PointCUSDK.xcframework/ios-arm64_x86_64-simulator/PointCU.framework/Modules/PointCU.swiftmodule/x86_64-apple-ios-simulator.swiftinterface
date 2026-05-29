@@ -124,7 +124,6 @@ public enum Point4uAd : Swift.String {
   }
 }
 @_hasMissingDesignatedInitializers public class PointCUSDK {
-  public static func setDevServer(useAws: Swift.Bool)
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public static func makeMainView(userId: Swift.String, birth: Swift.String? = nil, age: Swift.Int? = nil, gender: PointCU.PointCUGender, finishDelegate: (any PointCU.PointCUFinishDelegate)? = nil) -> some SwiftUICore.View
   
@@ -134,6 +133,11 @@ public enum Point4uAd : Swift.String {
   #endif
   public static func isRegistered() -> Swift.Bool
   public static func notifyMoveInventory()
+  public static func setDevServer(useAws: Swift.Bool)
+  public static func getStepCount(completion: @escaping (Swift.Int) -> Swift.Void)
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public static func getStepCount() async -> Swift.Int
+  #endif
   #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   @_Concurrency.MainActor public static func startGameRoulette(delegate: (any PointCU.PointCUGameDelegate)? = nil) -> Swift.Bool
