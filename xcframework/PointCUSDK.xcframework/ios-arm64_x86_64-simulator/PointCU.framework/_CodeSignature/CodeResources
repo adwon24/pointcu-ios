@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		I6xfrp0QIMgA+uEO4Wctb5cVB8E=
+		DawPz0aRkgZC0/EhMD6LX54sRLc=
 		</data>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		d8pq/9HnC+04o67kmtf0VVAwisM=
+		3MLv43DltOf34iLfscRtqJ5QQIs=
 		</data>
 		<key>Modules/PointCU.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		I6xfrp0QIMgA+uEO4Wctb5cVB8E=
+		DawPz0aRkgZC0/EhMD6LX54sRLc=
 		</data>
 		<key>Modules/PointCU.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/PointCU.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ug/ssdWmVqopzidIReu039sm9r8=
+		qfWfQOeQZyIv9G+0W1b/CgtHUFM=
 		</data>
 		<key>Roboto-Bold.ttf</key>
 		<data>
@@ -86,7 +86,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4fq3H7QdZOALw/vUz1/dCughFtpeSM/XAQFCYrZNAs4=
+			BoN/ju0YFvYbhcbUtaet/sRevwSY/EuTB/deC8p+FVk=
 			</data>
 		</dict>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -114,14 +114,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2fFMvHhgWqcvI/bL5q9q1RjzjtmJBTj3HzY3zwn1fMY=
+			SRe+w63F5hsMtByi3VTyLdaxkogwR0Ay+z2NUloxbVE=
 			</data>
 		</dict>
 		<key>Modules/PointCU.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4fq3H7QdZOALw/vUz1/dCughFtpeSM/XAQFCYrZNAs4=
+			BoN/ju0YFvYbhcbUtaet/sRevwSY/EuTB/deC8p+FVk=
 			</data>
 		</dict>
 		<key>Modules/PointCU.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -149,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UON+mgRiTnFn1aByflYWrShUdVTsXZxH9Z+JKFzg9UA=
+			ZsRJYziZsldYo10FOF9L3ucxS3IoaamJOaEa6UAPquk=
 			</data>
 		</dict>
 		<key>Roboto-Bold.ttf</key>
