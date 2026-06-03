@@ -9,8 +9,9 @@ Swift Package Manager(SPM)를 통해 배포되며, UIKit / SwiftUI 모두 지원
 
 | 버전 | 날짜 | 내용 |
 |---|---|---|
+| 0.3.0 | 2026.06.04 | 광고 뷰 단독 제공 API 추가 (makeAdViewController), 서버 환경 상용 추가 등 |
 | 0.2.0 | 2026.06.01 | 배포 오류 수정 |
-| 0.1.9 | 2026.06.01 | 그린피,나스미디어 연동 아이디 수정 처리 |
+| 0.1.9 | 2026.06.01 | 그린피, 나스미디어 연동 아이디 수정 처리 |
 | 0.1.8 | 2026.05.30 | 공지 팝업 처리 수정 |
 | 0.1.7 | 2026.05.30 | 공지 및 점검 안내 팝업 처리 추가 |
 | 0.1.6 | 2026.05.29 | 걸음수 연동 API 추가 |
@@ -167,6 +168,8 @@ NAMAdapter.m의 `getSafeBottomAreaHeight` 메서드는 iOS 13 이상에서 depre
 }
 ```
 
+---
+
 ## 3. SDK 초기화
 
 ### AppDelegate 설정 (NAMSDK)
@@ -187,8 +190,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GFPAdManagerDelegate {
         let configuration = GFPAdConfiguration()
         DispatchQueue.main.async {
             GFPAdManager.setup(
-                withPublisherCd: "N256497692", // ADWON PUBLISHER CD
-                target: self, 
+                withPublisherCd: "N256497692",
+                target: self,
                 configuration: configuration
             ) { error in
                 if let error = error {
@@ -208,7 +211,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GFPAdManagerDelegate {
 }
 ```
 
-> ※ ATT 권한 요청은 SDK 진입 시 모션 권한 획득 후 자동으로 순차 처리됩니다.  
+> ※ ATT 권한 요청은 SDK 진입 시 모션 권한 획득 후 자동으로 순차 처리됩니다.
 
 ---
 
@@ -225,8 +228,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GFPAdManagerDelegate {
 | finishDelegate | PointCUFinishDelegate? | 선택 | 재고조회 이동 이벤트 수신 |
 
 > ※ `birth` 또는 `age` 중 하나는 반드시 입력해야 합니다.  
-> ※ `birth` 입력 시 `age`는 자동 계산됩니다.  
-> ※ `birth` 형식: `yyyy-MM-dd` 또는 `yyyyMMdd` 허용 (예: `"1990-01-01"` 또는 `"19900101"`)
+> ※ `birth` 입력 시 `age`는 자동 계산됩니다.
 
 ### UIKit (UIViewController)
 
@@ -237,7 +239,7 @@ let vc = PointCUSDK.makeMainViewController(
     userId:         "user_id_here",
     birth:          "1990-01-01",   // 또는 age: 35 (둘 중 하나 필수)
     gender:         .male,
-    finishDelegate: self            // 재고조회 이동 처리 시
+    finishDelegate: self
 )
 vc.modalPresentationStyle = .fullScreen
 present(vc, animated: true)
@@ -250,7 +252,7 @@ import PointCUSDK
 
 let sdkView = PointCUSDK.makeMainView(
     userId:  "user_id_here",
-    birth:   "1990-01-01",   // 또는 age: 35 (둘 중 하나 필수)
+    birth:   "1990-01-01",
     gender:  .female
 )
 
@@ -287,6 +289,8 @@ extension YourViewController: PointCUFinishDelegate {
 
 ### PointCUAdDelegate
 
+`startPoint4uAdvertise` 사용 시 콜백입니다.
+
 | 메서드 | 호출 시점 |
 |---|---|
 | `onAdShow(type:)` | 광고가 화면에 표시될 때 |
@@ -295,86 +299,157 @@ extension YourViewController: PointCUFinishDelegate {
 | `onAdEarned(type:)` | 광고 페이지 5초 이상 체류 시 |
 | `onAdClick(type:)` | 광고 클릭 시 |
 
+### PointCUAdViewDelegate
+
+`makeAdViewController` 사용 시 콜백입니다.
+
+| 메서드 | 호출 시점 |
+|---|---|
+| `onAdLoaded()` | 광고 로드 성공 시 |
+| `onAdFailed(error:)` | 모든 광고 로드 실패 시 |
+| `onAdClicked()` | 광고 클릭 — Safari로 이동 |
+| `onAdEarned()` | 광고 페이지 5초 이상 체류 시 |
+| `onAdReturned()` | 5초 미만 복귀 |
+
+> ※ 닫기 버튼 등 컨테이너 UI 동작은 메인앱에서 직접 처리합니다.
+
 ---
 
 ## 6. 주요 기능 API
 
 ### 게임 단독 실행
 
-SDK 메인 화면 없이 게임만 단독으로 실행합니다.  
-`makeMainViewController` 호출 이력이 없는 미등록 사용자는 사용할 수 없습니다.
-
 ```swift
-// 룰렛 게임
 PointCUSDK.startGameRoulette(delegate: self)
-
-// 복권 게임
 PointCUSDK.startGameLottery(delegate: self)
 ```
 
 ### 걸음 수 확인
+
 ```swift
-// 등록 여부 확인 후 실행
 PointCUSDK.getStepCount { steps in
     if steps == -1 {
-        self.showToast("모션 권한 없음")
+        // 모션 권한 없음
     } else {
-        self.showToast("오늘 걸음수: \(steps)보")
+        print("오늘 걸음수: \(steps)보")
     }
 }
 ```
 
-> ※ `isRegistered()`로 등록 여부를 사전 확인 후 실행하는 것을 권장합니다.
+### CU 자체 광고 — 팝업 방식 (startPoint4uAdvertise)
 
-### CU 자체 광고 노출
-
-| 타입 | 설명 |
-|---|---|
-| `.eat` | 오늘 뭐먹지 |
-| `.inventory` | 재고 조회 |
-| `.newProduct` | 신상품 |
-| `.preOrder` | 예약 구매 |
+SDK 내부에서 팝업을 직접 표시합니다.
 
 ```swift
-// delegate 방식 (권장)
 PointCUSDK.startPoint4uAdvertise(
     type:     .eat,
     delegate: self   // PointCUAdDelegate
 )
+```
 
-// 클로저 방식 (delegate 미사용 시)
-PointCUSDK.startPoint4uAdvertise(
-    type:       .eat,
-    onComplete: { print("완료") },
-    onFail:     { print("실패") }
+### CU 자체 광고 — 뷰 단독 제공 방식 (makeAdViewController)
+
+SDK는 **300×250 광고 뷰만** 제공하며, 테두리·닫기 버튼 등 컨테이너 UI는 메인앱에서 직접 구성합니다.  
+재고조회 / 신상품 / 예약구매에 사용합니다.
+
+```swift
+let adVC = PointCUSDK.makeAdViewController(
+    type:     .inventory,                        // 광고 타입
+    adSize:   CGSize(width: 300, height: 250),   // 생략 시 300×250 기본값
+    delegate: self                               // PointCUAdViewDelegate
 )
 ```
 
+**사용 방식 3가지 예시:**
+
+#### 방식 1: addChild (권장 — 커스텀 팝업)
+
+메인앱에서 원하는 팝업 UI를 구성하고 SDK 광고 뷰를 내부에 삽입합니다.
+
 ```swift
-// PointCUAdDelegate 구현
-extension YourViewController: PointCUAdDelegate {
-    func onAdShow(type: Point4uAd?) { 
-        // 광고 로드 완료
+// 컨테이너 ViewController에서
+let adVC = PointCUSDK.makeAdViewController(type: .inventory, delegate: self)
+addChild(adVC)
+adVC.view.translatesAutoresizingMaskIntoConstraints = false
+myContainerView.addSubview(adVC.view)
+NSLayoutConstraint.activate([
+    adVC.view.topAnchor.constraint(equalTo: myContainerView.topAnchor),
+    adVC.view.bottomAnchor.constraint(equalTo: myContainerView.bottomAnchor),
+    adVC.view.leadingAnchor.constraint(equalTo: myContainerView.leadingAnchor),
+    adVC.view.trailingAnchor.constraint(equalTo: myContainerView.trailingAnchor),
+])
+adVC.didMove(toParent: self)
+```
+
+> ※ addChild는 `viewDidAppear` 이후에 호출해야 광고 로드가 정상 동작합니다.
+
+#### 방식 2: present (pageSheet)
+
+시트 형태로 간단하게 표시합니다.
+
+```swift
+let adVC = PointCUSDK.makeAdViewController(type: .newProduct, delegate: self)
+adVC.modalPresentationStyle = .pageSheet
+if let sheet = adVC.sheetPresentationController {
+    sheet.detents = [.medium()]
+    sheet.prefersGrabberVisible = true
+}
+present(adVC, animated: true)
+```
+
+#### 방식 3: UIView 직접 삽입 (인라인)
+
+현재 화면 뷰 계층에 직접 삽입합니다.
+
+```swift
+let adVC = PointCUSDK.makeAdViewController(type: .preOrder, delegate: self)
+addChild(adVC)
+let adView = adVC.view!
+adView.translatesAutoresizingMaskIntoConstraints = false
+view.addSubview(adView)
+NSLayoutConstraint.activate([
+    adView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+    adView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+    adView.widthAnchor.constraint(equalToConstant: 300),
+    adView.heightAnchor.constraint(equalToConstant: 250),
+])
+adVC.didMove(toParent: self)
+```
+
+**PointCUAdViewDelegate 구현:**
+
+```swift
+extension YourViewController: PointCUAdViewDelegate {
+    func onAdLoaded() {
+        // 광고 로드 성공 — 인디케이터 자동 제거됨
     }
-    func onAdFail(type: Point4uAd?, error: PointCUError) {
-        // 모든 광고 로드 실패
+    func onAdFailed(error: PointCUError) {
+        // 모든 광고 로드 실패 — 컨테이너 닫기 처리
     }
-    func onAdClose(type: Point4uAd?) { 
-        // 광고 팝업 닫힘
+    func onAdClicked() {
+        // 광고 클릭 — Safari로 이동
     }
-    func onAdEarned(type: Point4uAd?) {
-        // 5초 이상 체류 완료
+    func onAdEarned() {
+        // Safari 5초 이상 체류 후 복귀 — 리워드 지급 처리
     }
-    func onAdClick(type: Point4uAd?) { 
-        // 광고 배너 클릭
+    func onAdDismissed() {
+        // Safari 5초 미만 복귀
     }
 }
+```
+
+### 서버 환경 설정
+
+```swift
+// STG / AWS / 상용
+PointCUSDK.setServerType(.stg)   // 개발 서버 1
+PointCUSDK.setServerType(.aws)   // 개발 서버 2 (기본값)
+PointCUSDK.setServerType(.prod)  // 상용 서버
 ```
 
 ### 사용자 등록 여부 확인
 
 ```swift
-// true: 등록된 사용자, false: 미등록 사용자
 if PointCUSDK.isRegistered() {
     // 게임 또는 광고 실행
 }
@@ -382,12 +457,7 @@ if PointCUSDK.isRegistered() {
 
 ### 사용자 데이터 삭제
 
-SDK 내부에서 보관 중인 사용자 데이터(토큰, userId, 걸음 기록 등)를 삭제합니다.  
-**메인앱의 데이터에는 영향을 주지 않습니다.**  
-메인앱에서 로그아웃 또는 계정 전환 시 호출합니다.
-
 ```swift
-// SDK가 보관 중인 사용자 데이터만 삭제 (메인앱 데이터 무관)
 PointCUSDK.clearUserData()
 ```
 
@@ -397,20 +467,28 @@ PointCUSDK.clearUserData()
 
 ### PointCUGender
 
-| 값 | 서버 전송값 | 설명 |
-|---|---|---|
-| `.male` | `"1"` | 남성 |
-| `.female` | `"0"` | 여성 |
-| `.unknown` | `""` | 미지정 |
+| 값 | 설명 |
+|---|---|
+| `.male` | 남성 |
+| `.female` | 여성 |
+| `.unknown` | 미지정 |
 
 ### Point4uAd
 
-| 값 | 설명 |
-|---|---|
-| `.eat` | CU 광고 - 오늘 뭐먹지 |
-| `.inventory` | CU 광고 - 재고 조회 |
-| `.newProduct` | CU 광고 - 신상품 |
-| `.preOrder` | CU 광고 - 예약 구매 |
+| 값 | 설명 | startPoint4uAdvertise | makeAdViewController |
+|---|---|---|---|
+| `.eat` | CU 광고 - 오늘 뭐먹지 | ✅ | ❌ |
+| `.inventory` | CU 광고 - 재고 조회 | ✅ | ✅ |
+| `.newProduct` | CU 광고 - 신상품 | ✅ | ✅ |
+| `.preOrder` | CU 광고 - 예약 구매 | ✅ | ✅ |
+
+### PointCUServerType
+
+| 값 | 서버 | 설명 |
+|---|---|---|
+| `.stg` | https://stg.api.point4u.co.kr | 개발 서버 1 |
+| `.aws` | https://aws.api.point4u.co.kr | 개발 서버 2 (기본값) |
+| `.prod` | https://api.point4u.co.kr | 상용 서버 |
 
 ---
 
@@ -418,8 +496,8 @@ PointCUSDK.clearUserData()
 
 | 코드 | 값 | 설명 |
 |---|---|---|
-| `invalidBirthFormat` | 1002 | birth 형식 오류 — yyyy-MM-dd 또는 yyyyMMdd만 허용 |
-| `missingRequiredField` | 1003 | 필수 항목 누락 (userId, birth/age, gender) |
+| `invalidBirthFormat` | 1002 | birth 형식 오류 |
+| `missingRequiredField` | 1003 | 필수 항목 누락 |
 | `notInitialized` | 1004 | SDK 초기화 전 함수 호출 |
 | `notRegistered` | 1005 | 미등록 사용자 |
 | `noAdAvailable` | 2001 | 광고 없음 |
@@ -430,14 +508,11 @@ PointCUSDK.clearUserData()
 ## 9. 주의사항
 
 - SDK 메인 화면은 `fullScreen` 방식으로 present 합니다.
-- `NAMAdapter.h`, `NAMAdapter.m`, `GFPNativeSimpleAdView.xib`를 반드시 프로젝트에 추가해야 합니다.
-- Bridging Header에 `#import "NAMAdapter.h"`를 추가해야 합니다.
-- `userId`는 포켓CU 사용자 아이디 값입니다.
-- `birth` 또는 `age` 중 하나는 반드시 입력해야 합니다.
-- ATT 권한 요청은 SDK 진입 시 모션 권한 획득 후 자동으로 순차 처리됩니다. 메인앱에서 별도 요청이 불필요합니다.
+- `makeAdViewController`의 `addChild`는 반드시 `viewDidAppear` 이후에 호출해야 합니다.
+- `makeAdViewController`로 제공되는 광고 뷰의 내부 광고 소재 UI는 SDK에서 제어합니다. 컨테이너는 메인앱에서 자유롭게 구성할 수 있습니다.
+- ATT 권한 요청은 SDK 진입 시 자동 처리됩니다. 메인앱에서 별도 요청이 불필요합니다.
+- `clearUserData()` 호출 시 SDK가 보관 중인 사용자 데이터만 삭제됩니다. 메인앱 데이터에는 영향을 주지 않습니다.
 - `User Script Sandboxing`을 `No`로 설정하지 않으면 KissXML 관련 빌드 오류가 발생합니다.
-- `clearUserData()` 호출 시 SDK가 보관 중인 사용자 데이터(토큰, userId, 걸음 기록 등)만 삭제됩니다. 메인앱의 데이터에는 영향을 주지 않습니다.
-- 미등록 사용자(`isRegistered() = false`)는 게임 및 광고 기능을 사용할 수 없습니다.
 
 ---
 

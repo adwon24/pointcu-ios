@@ -22,6 +22,263 @@
         "moduleName": "PointCU"
       },
       {
+        "kind": "TypeDecl",
+        "name": "PointCUServerType",
+        "printedName": "PointCUServerType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "stg",
+            "printedName": "stg",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PointCU.PointCUServerType.Type) -> PointCU.PointCUServerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointCUServerType",
+                    "printedName": "PointCU.PointCUServerType",
+                    "usr": "s:7PointCU0A12CUServerTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PointCU.PointCUServerType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointCUServerType",
+                        "printedName": "PointCU.PointCUServerType",
+                        "usr": "s:7PointCU0A12CUServerTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PointCU0A12CUServerTypeO3stgyA2CmF",
+            "mangledName": "$s7PointCU0A12CUServerTypeO3stgyA2CmF",
+            "moduleName": "PointCU"
+          },
+          {
+            "kind": "Var",
+            "name": "aws",
+            "printedName": "aws",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PointCU.PointCUServerType.Type) -> PointCU.PointCUServerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointCUServerType",
+                    "printedName": "PointCU.PointCUServerType",
+                    "usr": "s:7PointCU0A12CUServerTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PointCU.PointCUServerType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointCUServerType",
+                        "printedName": "PointCU.PointCUServerType",
+                        "usr": "s:7PointCU0A12CUServerTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PointCU0A12CUServerTypeO3awsyA2CmF",
+            "mangledName": "$s7PointCU0A12CUServerTypeO3awsyA2CmF",
+            "moduleName": "PointCU",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prod",
+            "printedName": "prod",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PointCU.PointCUServerType.Type) -> PointCU.PointCUServerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointCUServerType",
+                    "printedName": "PointCU.PointCUServerType",
+                    "usr": "s:7PointCU0A12CUServerTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PointCU.PointCUServerType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointCUServerType",
+                        "printedName": "PointCU.PointCUServerType",
+                        "usr": "s:7PointCU0A12CUServerTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PointCU0A12CUServerTypeO4prodyA2CmF",
+            "mangledName": "$s7PointCU0A12CUServerTypeO4prodyA2CmF",
+            "moduleName": "PointCU",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PointCUServerType",
+                "printedName": "PointCU.PointCUServerType",
+                "usr": "s:7PointCU0A12CUServerTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PointCUServerType",
+                "printedName": "PointCU.PointCUServerType",
+                "usr": "s:7PointCU0A12CUServerTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PointCU0A12CUServerTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7PointCU0A12CUServerTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "PointCU",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7PointCU0A12CUServerTypeO9hashValueSivp",
+            "mangledName": "$s7PointCU0A12CUServerTypeO9hashValueSivp",
+            "moduleName": "PointCU",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PointCU0A12CUServerTypeO9hashValueSivg",
+                "mangledName": "$s7PointCU0A12CUServerTypeO9hashValueSivg",
+                "moduleName": "PointCU",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PointCU0A12CUServerTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7PointCU0A12CUServerTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "PointCU",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7PointCU0A12CUServerTypeO",
+        "mangledName": "$s7PointCU0A12CUServerTypeO",
+        "moduleName": "PointCU",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -125,13 +382,20 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
         "declKind": "Import",
         "moduleName": "PointCU",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PointCU"
       },
       {
         "kind": "Import",
@@ -1555,13 +1819,6 @@
       },
       {
         "kind": "Import",
-        "name": "AdPopcornSSP",
-        "printedName": "AdPopcornSSP",
-        "declKind": "Import",
-        "moduleName": "PointCU"
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -1653,6 +1910,707 @@
         "moduleName": "PointCU",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PointCU",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PointCUAdViewDelegate",
+        "printedName": "PointCUAdViewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onAdLoaded",
+            "printedName": "onAdLoaded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PointCU0A16CUAdViewDelegateP10onAdLoadedyyF",
+            "mangledName": "$s7PointCU0A16CUAdViewDelegateP10onAdLoadedyyF",
+            "moduleName": "PointCU",
+            "genericSig": "<τ_0_0 where τ_0_0 : PointCU.PointCUAdViewDelegate>",
+            "sugared_genericSig": "<Self where Self : PointCU.PointCUAdViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdFailed",
+            "printedName": "onAdFailed(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PointCUError",
+                "printedName": "PointCU.PointCUError",
+                "usr": "s:7PointCU0A7CUErrorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PointCU0A16CUAdViewDelegateP10onAdFailed5erroryAA0A7CUErrorV_tF",
+            "mangledName": "$s7PointCU0A16CUAdViewDelegateP10onAdFailed5erroryAA0A7CUErrorV_tF",
+            "moduleName": "PointCU",
+            "genericSig": "<τ_0_0 where τ_0_0 : PointCU.PointCUAdViewDelegate>",
+            "sugared_genericSig": "<Self where Self : PointCU.PointCUAdViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdClicked",
+            "printedName": "onAdClicked()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PointCU0A16CUAdViewDelegateP11onAdClickedyyF",
+            "mangledName": "$s7PointCU0A16CUAdViewDelegateP11onAdClickedyyF",
+            "moduleName": "PointCU",
+            "genericSig": "<τ_0_0 where τ_0_0 : PointCU.PointCUAdViewDelegate>",
+            "sugared_genericSig": "<Self where Self : PointCU.PointCUAdViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdEarned",
+            "printedName": "onAdEarned()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PointCU0A16CUAdViewDelegateP10onAdEarnedyyF",
+            "mangledName": "$s7PointCU0A16CUAdViewDelegateP10onAdEarnedyyF",
+            "moduleName": "PointCU",
+            "genericSig": "<τ_0_0 where τ_0_0 : PointCU.PointCUAdViewDelegate>",
+            "sugared_genericSig": "<Self where Self : PointCU.PointCUAdViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdReturned",
+            "printedName": "onAdReturned()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PointCU0A16CUAdViewDelegateP12onAdReturnedyyF",
+            "mangledName": "$s7PointCU0A16CUAdViewDelegateP12onAdReturnedyyF",
+            "moduleName": "PointCU",
+            "genericSig": "<τ_0_0 where τ_0_0 : PointCU.PointCUAdViewDelegate>",
+            "sugared_genericSig": "<Self where Self : PointCU.PointCUAdViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7PointCU0A16CUAdViewDelegateP",
+        "mangledName": "$s7PointCU0A16CUAdViewDelegateP",
+        "moduleName": "PointCU",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PointCUAdViewController",
+        "printedName": "PointCUAdViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "adDelegate",
+            "printedName": "adDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any PointCU.PointCUAdViewDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7PointCU0A18CUAdViewControllerC10adDelegateAA0acdG0_pSgvp",
+            "mangledName": "$s7PointCU0A18CUAdViewControllerC10adDelegateAA0acdG0_pSgvp",
+            "moduleName": "PointCU",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PointCU.PointCUAdViewDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointCUAdViewDelegate",
+                        "printedName": "any PointCU.PointCUAdViewDelegate",
+                        "usr": "s:7PointCU0A16CUAdViewDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PointCU0A18CUAdViewControllerC10adDelegateAA0acdG0_pSgvg",
+                "mangledName": "$s7PointCU0A18CUAdViewControllerC10adDelegateAA0acdG0_pSgvg",
+                "moduleName": "PointCU",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PointCU.PointCUAdViewDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointCUAdViewDelegate",
+                        "printedName": "any PointCU.PointCUAdViewDelegate",
+                        "usr": "s:7PointCU0A16CUAdViewDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PointCU0A18CUAdViewControllerC10adDelegateAA0acdG0_pSgvs",
+                "mangledName": "$s7PointCU0A18CUAdViewControllerC10adDelegateAA0acdG0_pSgvs",
+                "moduleName": "PointCU",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PointCU0A18CUAdViewControllerC10adDelegateAA0acdG0_pSgvM",
+                "mangledName": "$s7PointCU0A18CUAdViewControllerC10adDelegateAA0acdG0_pSgvM",
+                "moduleName": "PointCU",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adContainerView",
+            "printedName": "adContainerView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7PointCU0A18CUAdViewControllerC011adContainerD0So6UIViewCvp",
+            "mangledName": "$s7PointCU0A18CUAdViewControllerC011adContainerD0So6UIViewCvp",
+            "moduleName": "PointCU",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PointCU0A18CUAdViewControllerC011adContainerD0So6UIViewCvg",
+                "mangledName": "$s7PointCU0A18CUAdViewControllerC011adContainerD0So6UIViewCvg",
+                "moduleName": "PointCU",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(type:adSize:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PointCUAdViewController",
+                "printedName": "PointCU.PointCUAdViewController",
+                "usr": "c:@M@PointCU@objc(cs)PointCUAdViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Point4uAd",
+                "printedName": "PointCU.Point4uAd",
+                "usr": "s:7PointCU9Point4uAdO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "hasDefaultArg": true,
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PointCU.PointCUAdViewDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointCUAdViewDelegate",
+                    "printedName": "any PointCU.PointCUAdViewDelegate",
+                    "usr": "s:7PointCU0A16CUAdViewDelegateP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7PointCU0A18CUAdViewControllerC4type6adSize8delegateAcA9Point4uAdO_So6CGSizeVAA0acD8Delegate_pSgtcfc",
+            "mangledName": "$s7PointCU0A18CUAdViewControllerC4type6adSize8delegateAcA9Point4uAdO_So6CGSizeVAA0acD8Delegate_pSgtcfc",
+            "moduleName": "PointCU",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PointCU@objc(cs)PointCUAdViewController(im)viewDidLoad",
+            "mangledName": "$s7PointCU0A18CUAdViewControllerC11viewDidLoadyyF",
+            "moduleName": "PointCU",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PointCU@objc(cs)PointCUAdViewController(im)viewDidLayoutSubviews",
+            "mangledName": "$s7PointCU0A18CUAdViewControllerC21viewDidLayoutSubviewsyyF",
+            "moduleName": "PointCU",
+            "overriding": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PointCU@objc(cs)PointCUAdViewController(im)viewDidAppear:",
+            "mangledName": "$s7PointCU0A18CUAdViewControllerC13viewDidAppearyySbF",
+            "moduleName": "PointCU",
+            "overriding": true,
+            "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidDisappear",
+            "printedName": "viewDidDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PointCU@objc(cs)PointCUAdViewController(im)viewDidDisappear:",
+            "mangledName": "$s7PointCU0A18CUAdViewControllerC16viewDidDisappearyySbF",
+            "moduleName": "PointCU",
+            "overriding": true,
+            "objc_name": "viewDidDisappear:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleForeground",
+            "printedName": "handleForeground()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PointCU0A18CUAdViewControllerC16handleForegroundyyF",
+            "mangledName": "$s7PointCU0A18CUAdViewControllerC16handleForegroundyyF",
+            "moduleName": "PointCU",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PointCUAdViewController",
+                "printedName": "PointCU.PointCUAdViewController",
+                "usr": "c:@M@PointCU@objc(cs)PointCUAdViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PointCU@objc(cs)PointCUAdViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s7PointCU0A18CUAdViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "PointCU",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PointCU@objc(cs)PointCUAdViewController",
+        "mangledName": "$s7PointCU0A18CUAdViewControllerC",
+        "moduleName": "PointCU",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
         ]
       },
       {
@@ -3445,6 +4403,35 @@
           },
           {
             "kind": "Function",
+            "name": "setServerType",
+            "printedName": "setServerType(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PointCUServerType",
+                "printedName": "PointCU.PointCUServerType",
+                "usr": "s:7PointCU0A12CUServerTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PointCU0A5CUSDKC13setServerTypeyyAA0a8CUServerF0OFZ",
+            "mangledName": "$s7PointCU0A5CUSDKC13setServerTypeyyAA0a8CUServerF0OFZ",
+            "moduleName": "PointCU",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getStepCount",
             "printedName": "getStepCount(completion:)",
             "children": [
@@ -3825,6 +4812,60 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeAdViewController",
+            "printedName": "makeAdViewController(type:adSize:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PointCUAdViewController",
+                "printedName": "PointCU.PointCUAdViewController",
+                "usr": "c:@M@PointCU@objc(cs)PointCUAdViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Point4uAd",
+                "printedName": "PointCU.Point4uAd",
+                "usr": "s:7PointCU9Point4uAdO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "hasDefaultArg": true,
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PointCU.PointCUAdViewDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointCUAdViewDelegate",
+                    "printedName": "any PointCU.PointCUAdViewDelegate",
+                    "usr": "s:7PointCU0A16CUAdViewDelegateP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PointCU0A5CUSDKC20makeAdViewController4type6adSize8delegateAA0a4CUAdfG0CAA07Point4uE0O_So6CGSizeVAA0alF8Delegate_pSgtFZ",
+            "mangledName": "$s7PointCU0A5CUSDKC20makeAdViewController4type6adSize8delegateAA0a4CUAdfG0CAA07Point4uE0O_So6CGSizeVAA0alF8Delegate_pSgtFZ",
+            "moduleName": "PointCU",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -3887,1703 +4928,1675 @@
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "BooleanLiteral",
-      "offset": 160,
+      "offset": 344,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "BooleanLiteral",
-      "offset": 195,
+      "offset": 379,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 646,
+      "offset": 678,
       "length": 26,
       "value": "\"com.pointcu.sdk.defaults\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 703,
+      "offset": 735,
       "length": 23,
       "value": "\"PointCU_Authorization\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 758,
+      "offset": 790,
       "length": 16,
       "value": "\"PointCU_UserId\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 811,
+      "offset": 843,
       "length": 21,
       "value": "\"PointCU_StepHistory\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 871,
+      "offset": 903,
       "length": 23,
       "value": "\"PointCU_TrackingState\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 931,
+      "offset": 963,
       "length": 21,
       "value": "\"PointCU_FrozenSteps\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 992,
+      "offset": 1024,
       "length": 24,
       "value": "\"PointCU_FrozenDistance\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1056,
+      "offset": 1088,
       "length": 24,
       "value": "\"PointCU_FrozenCalories\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1116,
+      "offset": 1148,
       "length": 20,
       "value": "\"PointCU_FrozenDate\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1175,
+      "offset": 1207,
       "length": 24,
       "value": "\"PointCU_EmergencySteps\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1243,
+      "offset": 1275,
       "length": 23,
       "value": "\"PointCU_EmergencyDate\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1310,
+      "offset": 1342,
       "length": 27,
       "value": "\"PointCU_TrackingStartDate\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1374,
+      "offset": 1406,
       "length": 21,
       "value": "\"PointCU_SyncedDates\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1456,
+      "offset": 1488,
       "length": 31,
       "value": "\"https:\/\/stg.api.point4u.co.kr\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1522,
+      "offset": 1554,
       "length": 31,
       "value": "\"https:\/\/aws.api.point4u.co.kr\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1588,
+      "offset": 1620,
       "length": 27,
       "value": "\"https:\/\/api.point4u.co.kr\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1650,
+      "offset": 1682,
       "length": 38,
       "value": "\"b67f4c7b-157d-45bc-8bb8-a664a520c8e7\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1723,
+      "offset": 1755,
       "length": 38,
       "value": "\"2062c9c8-792b-4e97-bd6b-82be8afec4a8\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1796,
+      "offset": 1828,
       "length": 19,
       "value": "\"com.adwon.pointcu\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2031,
+      "offset": 2063,
       "length": 11,
       "value": "\"329767435\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2102,
+      "offset": 2134,
       "length": 12,
       "value": "\"N256497692\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2307,
+      "offset": 2339,
       "length": 12,
       "value": "\"wQdxbGloub\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2522,
+      "offset": 2554,
       "length": 5,
       "value": "10989"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2577,
+      "offset": 2609,
       "length": 5,
       "value": "11000"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2638,
+      "offset": 2670,
       "length": 5,
       "value": "11002"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2978,
+      "offset": 3010,
       "length": 10,
       "value": "\"10894054\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3052,
+      "offset": 3084,
       "length": 10,
       "value": "\"10894056\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3126,
+      "offset": 3158,
       "length": 10,
       "value": "\"10894058\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3198,
+      "offset": 3230,
       "length": 10,
       "value": "\"10894060\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3269,
+      "offset": 3301,
       "length": 10,
       "value": "\"10894062\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 3361,
+      "offset": 3393,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 3396,
+      "offset": 3428,
       "length": 4,
       "value": "26.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3459,
+      "offset": 3491,
       "length": 10,
       "value": "\"btn_back\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3522,
+      "offset": 3554,
       "length": 10,
       "value": "\"icn_mail\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3586,
+      "offset": 3618,
       "length": 11,
       "value": "\"bear_walk\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3671,
+      "offset": 3703,
       "length": 16,
       "value": "\"point_badge_on\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3723,
+      "offset": 3755,
       "length": 17,
       "value": "\"point_badge_off\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3776,
+      "offset": 3808,
       "length": 17,
       "value": "\"ticket_badge_on\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3830,
+      "offset": 3862,
       "length": 18,
       "value": "\"ticket_badge_off\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3883,
+      "offset": 3915,
       "length": 15,
       "value": "\"icn_inventory\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3930,
+      "offset": 3962,
       "length": 15,
       "value": "\"chevron.right\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4026,
+      "offset": 4058,
       "length": 17,
       "value": "\"icn_move_bottom\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4081,
+      "offset": 4113,
       "length": 19,
       "value": "\"scratch_result_bg\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4135,
+      "offset": 4167,
       "length": 15,
       "value": "\"scratch_cover\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4184,
+      "offset": 4216,
       "length": 17,
       "value": "\"icn_firecracker\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4242,
+      "offset": 4274,
       "length": 22,
       "value": "\"bear_walk_background\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4294,
+      "offset": 4326,
       "length": 9,
       "value": "\"icn_pig\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4342,
+      "offset": 4374,
       "length": 14,
       "value": "\"icn_check_on\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4392,
+      "offset": 4424,
       "length": 14,
       "value": "\"icn_roulette\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4441,
+      "offset": 4473,
       "length": 13,
       "value": "\"icn_lottery\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4492,
+      "offset": 4524,
       "length": 11,
       "value": "\"ticket_bg\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4566,
+      "offset": 4598,
       "length": 17,
       "value": "\"mainScrollTopId\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4624,
+      "offset": 4656,
       "length": 20,
       "value": "\"mainScrollBottomId\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4703,
+      "offset": 4735,
       "length": 11,
       "value": "\"CU 걷기\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4748,
+      "offset": 4780,
       "length": 8,
       "value": "\"확인\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4789,
+      "offset": 4821,
       "length": 8,
       "value": "\"취소\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4829,
+      "offset": 4861,
       "length": 8,
       "value": "\"닫기\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4869,
+      "offset": 4901,
       "length": 11,
       "value": "\"나중에\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4914,
+      "offset": 4946,
       "length": 8,
       "value": "\"거부\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4958,
+      "offset": 4990,
       "length": 8,
       "value": "\"허용\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5007,
+      "offset": 5039,
       "length": 21,
       "value": "\"설정으로 이동\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5064,
+      "offset": 5096,
       "length": 14,
       "value": "\"확인하기\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5117,
+      "offset": 5149,
       "length": 14,
       "value": "\"중단하기\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5172,
+      "offset": 5204,
       "length": 31,
       "value": "\"오늘 이만큼 걸었어요\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5231,
+      "offset": 5263,
       "length": 8,
       "value": "\"걸음\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5264,
+      "offset": 5296,
       "length": 4,
       "value": "\"Km\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5295,
+      "offset": 5327,
       "length": 6,
       "value": "\"Kcal\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5329,
+      "offset": 5361,
       "length": 11,
       "value": "\"포인트\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5369,
+      "offset": 5401,
       "length": 8,
       "value": "\"복권\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5423,
+      "offset": 5455,
       "length": 22,
       "value": "\"권한 허용 안내\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5491,
+      "offset": 5523,
       "length": 22,
       "value": "\"신체활동(필수)\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5559,
+      "offset": 5591,
       "length": 89,
       "value": "\"CU걷기를 통해 신체 활동 정보(걸음수)를 제공 하는데 필요합니다.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5694,
+      "offset": 5726,
       "length": 180,
       "value": "\"위 접근 권한은 CU 걷기 서비스를 원활하게 이용하기 위해 사용됩니다. 권한을 허용하지 않는 경우 서비스 이용이 제한될 수 있습니다.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5920,
+      "offset": 5952,
       "length": 132,
       "value": "\"신체활동 권한이 거부되어 있습니다.\n설정에서 권한을 허용하시면 서비스를 이용할 수 있습니다.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6098,
+      "offset": 6130,
       "length": 54,
       "value": "\"앞의 보상부터 순차적으로 받아주세요.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6184,
+      "offset": 6216,
       "length": 49,
       "value": "\"지금 뜨는 신상품, 근처에서 찾아요\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6265,
+      "offset": 6297,
       "length": 41,
       "value": "\"지금까지 얼마나 걸었을까요?\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6338,
+      "offset": 6370,
       "length": 14,
       "value": "\"통계보기\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6396,
+      "offset": 6428,
       "length": 40,
       "value": "\"걸음 수 측정이 꺼져 있어요.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6479,
+      "offset": 6511,
       "length": 92,
       "value": "\"포인트를 적립하고 싶으면 하단 토글에서 걸음 수 측정을 켜주세요.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6609,
+      "offset": 6641,
       "length": 62,
       "value": "\"CU 걷기를 종료하고\n재고조회를 하러 갈까요?\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6713,
+      "offset": 6745,
       "length": 18,
       "value": "\"걸음수 측정\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6773,
+      "offset": 6805,
       "length": 110,
       "value": "\"걸음수 측정이 시작되었어요.\n이제부터 걸음 수 달성 후\n보상을 받을 수 있어요!\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6925,
+      "offset": 6957,
       "length": 121,
       "value": "\"걸음수 측정을 종료하면\n걸음수 보상을 받을 수 없어요!\n그래도 측정을 종료하시겠어요?\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7096,
+      "offset": 7128,
       "length": 22,
       "value": "\"동작 권한 필요\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7170,
+      "offset": 7202,
       "length": 118,
       "value": "\"걸음 수를 측정하려면 '동작 및 피트니스' 권한이 필요합니다. 설정에서 허용해 주세요.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7331,
+      "offset": 7363,
       "length": 50,
       "value": "\"광고를 보고\n복권 1장을 받아보세요\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7423,
+      "offset": 7455,
       "length": 72,
       "value": "\"광고를 보고 복권을 긁으면 포인트를 받을 수 있어요\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7537,
+      "offset": 7569,
       "length": 29,
       "value": "\"복권 1장을 받았어요\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7607,
+      "offset": 7639,
       "length": 58,
       "value": "\"복권을 긁고 당첨 포인트를 확인해 보세요\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7702,
+      "offset": 7734,
       "length": 29,
       "value": "\"광고보고 복권긁기 >\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7765,
+      "offset": 7797,
       "length": 27,
       "value": "\"여기를 긁어보세요\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7825,
+      "offset": 7857,
       "length": 24,
       "value": "\"당첨되었습니다!\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7891,
+      "offset": 7923,
       "length": 19,
       "value": "\"P를 받았어요\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7958,
+      "offset": 7990,
       "length": 66,
       "value": "\"보상 수령에 실패했습니다. 다시 시도해 주세요.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8065,
+      "offset": 8097,
       "length": 144,
       "value": "\"복권을 긁어 포인트를 획득해주세요!\n긁지 않고 화면을 나가시면\n광고를 다시 시청하셔야 복권을 받아요.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8243,
+      "offset": 8275,
       "length": 18,
       "value": "\"서비스 안내\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8287,
+      "offset": 8319,
       "length": 5,
       "value": "\"FAQ\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8322,
+      "offset": 8354,
       "length": 8,
       "value": "\"문의\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8365,
+      "offset": 8397,
       "length": 70,
       "value": "\"메일을 보낼 수 있는 앱이 설치되어 있지 않습니다.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8465,
+      "offset": 8497,
       "length": 70,
       "value": "\"자주 묻는 질문에서\n궁금한 내용을 확인해 보세요.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8568,
+      "offset": 8600,
       "length": 8,
       "value": "\"통계\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8608,
+      "offset": 8640,
       "length": 12,
       "value": "\"이번 주\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8653,
+      "offset": 8685,
       "length": 10,
       "value": "\"1주 전\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8696,
+      "offset": 8728,
       "length": 10,
       "value": "\"2주 전\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8735,
+      "offset": 8767,
       "length": 8,
       "value": "\"최근\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8782,
+      "offset": 8814,
       "length": 23,
       "value": "\"7일간 하루 평균\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8835,
+      "offset": 8867,
       "length": 15,
       "value": "\"걸었어요.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8889,
+      "offset": 8921,
       "length": 62,
-      "value": "\"※ 통계 그래프는 일주일 단위로 표시됩니다.\""
+      "value": "\"• 통계 그래프는 일주일 단위로 표시됩니다.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8990,
+      "offset": 9022,
       "length": 90,
-      "value": "\"※ 주간 평균 걸음 수는 전날부터 일주일의 걸음 수로 계산됩니다.\""
+      "value": "\"• 주간 평균 걸음 수는 전날부터 일주일의 걸음 수로 계산됩니다.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9115,
+      "offset": 9147,
       "length": 39,
       "value": "\"걸음 수가 실제와 다른가요?\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9191,
+      "offset": 9223,
       "length": 29,
       "value": "\"오늘 하루 보지 않기\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9261,
+      "offset": 9293,
       "length": 31,
       "value": "\"광고를 준비중입니다.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9332,
+      "offset": 9364,
       "length": 69,
       "value": "\"참여 시간이 지났어요. 다음 시간에 도전해주세요.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9441,
+      "offset": 9473,
       "length": 82,
       "value": "\"일시적인 오류가 발생했습니다. 잠시 후 다시 시도해주세요.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9563,
+      "offset": 9595,
       "length": 81,
       "value": "\"현재 시청 가능한 광고가 없습니다.\n잠시 후 참여해주세요.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9683,
+      "offset": 9715,
       "length": 39,
       "value": "\"광고 보고 룰렛 참여권 받기\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9756,
+      "offset": 9788,
       "length": 37,
       "value": "\"다음 시간에 도전해주세요\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9831,
+      "offset": 9863,
       "length": 55,
       "value": "\"클릭하고 페이지 방문하여 보상 받아요.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9928,
+      "offset": 9960,
       "length": 58,
       "value": "\"페이지 5초 이상 머물러야 보상 획득 가능!\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10024,
+      "offset": 10056,
       "length": 8,
       "value": "\"룰렛\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10070,
+      "offset": 10102,
       "length": 8,
       "value": "\"복권\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10115,
+      "offset": 10147,
       "length": 18,
       "value": "\"축하합니다!\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10180,
+      "offset": 10212,
       "length": 86,
       "value": "\"룰렛 참여권을 받았어요.\n룰렛을 돌리고 포인트를 받아보세요.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10299,
+      "offset": 10331,
       "length": 18,
       "value": "\"룰렛 돌리기\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10360,
+      "offset": 10392,
       "length": 59,
       "value": "\"오류가 발생했습니다. 다시 시도해 주세요.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "Array",
-      "offset": 10467,
+      "offset": 10499,
       "length": 557,
       "value": "[\"포인트 획득 게임 참여 시 광고 시청 후에 참여할 수 있습니다.\", \"광고의 종류, 길이 등은 랜덤하게 보여집니다.\", \"포인트 획득 게임은 회사 운영에 따라 일부 내용이 변경되거나 종료될 수 있습니다.\", \"앱을 최신 버전으로 업데이트하지 않는 경우, 포인트 획득 게임 참여가 불가할 수 있으며, 해당 사유로 포인트가 미 지급되는 경우 포인트의 재 지급이 불가할 수 있습니다.\"]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11101,
+      "offset": 11133,
       "length": 3,
       "value": "116"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11105,
+      "offset": 11137,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11119,
+      "offset": 11151,
       "length": 2,
       "value": "74"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11122,
+      "offset": 11154,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11135,
+      "offset": 11167,
       "length": 3,
       "value": "232"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11139,
+      "offset": 11171,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11189,
+      "offset": 11221,
       "length": 2,
       "value": "55"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11192,
+      "offset": 11224,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11206,
+      "offset": 11238,
       "length": 3,
       "value": "210"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11210,
+      "offset": 11242,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11223,
+      "offset": 11255,
       "length": 2,
       "value": "67"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11226,
+      "offset": 11258,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11280,
+      "offset": 11312,
       "length": 3,
       "value": "237"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11284,
+      "offset": 11316,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11298,
+      "offset": 11330,
       "length": 3,
       "value": "228"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11302,
+      "offset": 11334,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11315,
+      "offset": 11347,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11319,
+      "offset": 11351,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11373,
+      "offset": 11405,
       "length": 2,
       "value": "34"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11376,
+      "offset": 11408,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11390,
+      "offset": 11422,
       "length": 2,
       "value": "34"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11393,
+      "offset": 11425,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11406,
+      "offset": 11438,
       "length": 2,
       "value": "34"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11409,
+      "offset": 11441,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11461,
+      "offset": 11493,
       "length": 2,
       "value": "68"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11464,
+      "offset": 11496,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11478,
+      "offset": 11510,
       "length": 2,
       "value": "68"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11481,
+      "offset": 11513,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11494,
+      "offset": 11526,
       "length": 2,
       "value": "68"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11497,
+      "offset": 11529,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11551,
+      "offset": 11583,
       "length": 3,
       "value": "102"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11555,
+      "offset": 11587,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11569,
+      "offset": 11601,
       "length": 3,
       "value": "102"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11573,
+      "offset": 11605,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11586,
+      "offset": 11618,
       "length": 3,
       "value": "102"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11590,
+      "offset": 11622,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11642,
+      "offset": 11674,
       "length": 3,
       "value": "148"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11646,
+      "offset": 11678,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11660,
+      "offset": 11692,
       "length": 3,
       "value": "148"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11664,
+      "offset": 11696,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11677,
+      "offset": 11709,
       "length": 3,
       "value": "148"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11681,
+      "offset": 11713,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11733,
+      "offset": 11765,
       "length": 3,
       "value": "170"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11737,
+      "offset": 11769,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11751,
+      "offset": 11783,
       "length": 3,
       "value": "170"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11755,
+      "offset": 11787,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11768,
+      "offset": 11800,
       "length": 3,
       "value": "170"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11772,
+      "offset": 11804,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11821,
+      "offset": 11853,
       "length": 3,
       "value": "204"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11825,
+      "offset": 11857,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11839,
+      "offset": 11871,
       "length": 3,
       "value": "204"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11843,
+      "offset": 11875,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11856,
+      "offset": 11888,
       "length": 3,
       "value": "204"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11860,
+      "offset": 11892,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11911,
+      "offset": 11943,
       "length": 3,
       "value": "219"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11915,
+      "offset": 11947,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11929,
+      "offset": 11961,
       "length": 3,
       "value": "219"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11933,
+      "offset": 11965,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11946,
+      "offset": 11978,
       "length": 3,
       "value": "219"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 11950,
+      "offset": 11982,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12002,
+      "offset": 12034,
       "length": 3,
       "value": "221"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12006,
+      "offset": 12038,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12020,
+      "offset": 12052,
       "length": 3,
       "value": "221"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12024,
+      "offset": 12056,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12037,
+      "offset": 12069,
       "length": 3,
       "value": "221"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12041,
+      "offset": 12073,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12093,
+      "offset": 12125,
       "length": 3,
       "value": "238"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12097,
+      "offset": 12129,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12111,
+      "offset": 12143,
       "length": 3,
       "value": "238"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12115,
+      "offset": 12147,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12128,
+      "offset": 12160,
       "length": 3,
       "value": "238"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12132,
+      "offset": 12164,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12184,
+      "offset": 12216,
       "length": 3,
       "value": "238"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12188,
+      "offset": 12220,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12202,
+      "offset": 12234,
       "length": 3,
       "value": "237"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12206,
+      "offset": 12238,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12219,
+      "offset": 12251,
       "length": 3,
       "value": "245"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12223,
+      "offset": 12255,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12275,
+      "offset": 12307,
       "length": 3,
       "value": "242"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12279,
+      "offset": 12311,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12293,
+      "offset": 12325,
       "length": 3,
       "value": "242"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12297,
+      "offset": 12329,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12310,
+      "offset": 12342,
       "length": 3,
       "value": "242"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12314,
+      "offset": 12346,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12363,
+      "offset": 12395,
       "length": 3,
       "value": "244"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12367,
+      "offset": 12399,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12381,
+      "offset": 12413,
       "length": 3,
       "value": "244"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12385,
+      "offset": 12417,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12398,
+      "offset": 12430,
       "length": 3,
       "value": "244"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12402,
+      "offset": 12434,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12454,
+      "offset": 12486,
       "length": 3,
       "value": "248"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12458,
+      "offset": 12490,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12472,
+      "offset": 12504,
       "length": 3,
       "value": "248"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12476,
+      "offset": 12508,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12489,
+      "offset": 12521,
       "length": 3,
       "value": "248"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12493,
+      "offset": 12525,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12546,
+      "offset": 12578,
       "length": 2,
       "value": "34"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12549,
+      "offset": 12581,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12563,
+      "offset": 12595,
       "length": 2,
       "value": "34"
-    },
-    {
-      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
-      "kind": "FloatLiteral",
-      "offset": 12566,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12579,
-      "length": 2,
-      "value": "34"
-    },
-    {
-      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
-      "kind": "FloatLiteral",
-      "offset": 12582,
-      "length": 5,
-      "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 12598,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12611,
+      "length": 2,
+      "value": "34"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 12614,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 12630,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12649,
+      "offset": 12681,
       "length": 3,
       "value": "116"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12653,
+      "offset": 12685,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12667,
+      "offset": 12699,
       "length": 2,
       "value": "74"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12670,
+      "offset": 12702,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12683,
+      "offset": 12715,
       "length": 3,
       "value": "232"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12687,
+      "offset": 12719,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12733,
+      "offset": 12765,
       "length": 3,
       "value": "255"
-    },
-    {
-      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
-      "kind": "FloatLiteral",
-      "offset": 12737,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12751,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
-      "kind": "FloatLiteral",
-      "offset": 12753,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12766,
-      "length": 2,
-      "value": "60"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
@@ -5595,28 +6608,28 @@
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12822,
-      "length": 2,
-      "value": "51"
-    },
-    {
-      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
-      "kind": "FloatLiteral",
-      "offset": 12825,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12839,
+      "offset": 12783,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12841,
+      "offset": 12785,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12798,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 12801,
       "length": 5,
       "value": "255.0"
     },
@@ -5624,97 +6637,125 @@
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 12854,
-      "length": 3,
-      "value": "255"
+      "length": 2,
+      "value": "51"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12858,
+      "offset": 12857,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12907,
+      "offset": 12871,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 12873,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12886,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 12890,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12939,
       "length": 3,
       "value": "146"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12911,
+      "offset": 12943,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12925,
+      "offset": 12957,
       "length": 3,
       "value": "107"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12929,
+      "offset": 12961,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12942,
+      "offset": 12974,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12946,
+      "offset": 12978,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12993,
+      "offset": 13025,
       "length": 3,
       "value": "171"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 12997,
+      "offset": 13029,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 13011,
+      "offset": 13043,
       "length": 3,
       "value": "141"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 13015,
+      "offset": 13047,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 13028,
+      "offset": 13060,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 13032,
+      "offset": 13064,
       "length": 5,
       "value": "255.0"
     },
@@ -5798,100 +6839,114 @@
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Utils.swift",
       "kind": "BooleanLiteral",
-      "offset": 1283,
+      "offset": 1218,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/AppDataManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 318,
+      "offset": 349,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/AppDataManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 377,
+      "offset": 395,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/AppDataManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 512,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/AppDataManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1070,
+      "offset": 1205,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/AppDataManager.swift",
       "kind": "Array",
-      "offset": 1859,
+      "offset": 1994,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/AppDataManager.swift",
       "kind": "Array",
-      "offset": 1915,
+      "offset": 2050,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/AppDataManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2000,
+      "offset": 2135,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/AppDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2214,
+      "offset": 2349,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/AppDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2259,
+      "offset": 2394,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/AppDataManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10504,
+      "offset": 10879,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/AppDataManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 27979,
+      "offset": 27900,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/GreenPManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3282,
+      "offset": 3176,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/MediationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 693,
-      "length": 16,
-      "value": "\"mediation_data\""
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/GreenPManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3280,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/MediationManager.swift",
       "kind": "StringLiteral",
-      "offset": 741,
-      "length": 22,
-      "value": "\"mediation_last_fetch\""
+      "offset": 673,
+      "length": 23,
+      "value": "\"mediation_member_data\""
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/MediationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 734,
+      "length": 29,
+      "value": "\"mediation_member_last_fetch\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/MediationManager.swift",
@@ -5903,14 +6958,14 @@
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/MediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 987,
+      "offset": 1090,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/MediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2304,
+      "offset": 2082,
       "length": 5,
       "value": "false"
     },
@@ -6169,336 +7224,336 @@
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "Array",
-      "offset": 6327,
+      "offset": 6319,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 6367,
+      "offset": 6359,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6410,
+      "offset": 6402,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6520,
+      "offset": 6512,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6637,
+      "offset": 6629,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "Array",
-      "offset": 6737,
+      "offset": 6729,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6832,
+      "offset": 6824,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "StringLiteral",
-      "offset": 17855,
+      "offset": 17678,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "Dictionary",
-      "offset": 17986,
+      "offset": 17809,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 18014,
+      "offset": 17837,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18452,
+      "offset": 18275,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "StringLiteral",
-      "offset": 18514,
+      "offset": 18337,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "StringLiteral",
-      "offset": 18550,
+      "offset": 18373,
       "length": 84,
       "value": "\"[StepManager] 오늘 키에 어제 세션 감지 → \""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "StringLiteral",
-      "offset": 18619,
+      "offset": 18442,
       "length": 6,
       "value": "\" 키로 이동\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "StringLiteral",
-      "offset": 18899,
+      "offset": 18722,
       "length": 95,
       "value": "\"[StepManager] 어제 키에 이미 데이터 존재 → 오늘 키만 삭제 (병합 안 함)\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 19096,
+      "offset": 18919,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "Array",
-      "offset": 19309,
+      "offset": 19132,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 19543,
+      "offset": 19366,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 19779,
+      "offset": 19602,
       "length": 5,
       "value": "86399"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 19938,
+      "offset": 19761,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 20753,
+      "offset": 20576,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 21145,
+      "offset": 20968,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 21168,
+      "offset": 20991,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 21330,
+      "offset": 21153,
       "length": 5,
       "value": "86399"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 21495,
+      "offset": 21318,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 21885,
+      "offset": 21708,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "Dictionary",
-      "offset": 23766,
+      "offset": 23589,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "StringLiteral",
-      "offset": 24768,
+      "offset": 24591,
       "length": 51,
       "value": "\"[StepManager] backfill 이미 실행 중. 스킵.\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 24875,
+      "offset": 24698,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "StringLiteral",
-      "offset": 25022,
+      "offset": 24845,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "Dictionary",
-      "offset": 25153,
+      "offset": 24976,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "Array",
-      "offset": 25257,
+      "offset": 25080,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "StringLiteral",
-      "offset": 25887,
+      "offset": 25710,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 26068,
+      "offset": 25891,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "Array",
-      "offset": 26321,
+      "offset": 26144,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "StringLiteral",
-      "offset": 26446,
+      "offset": 26269,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 26724,
+      "offset": 26547,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 26812,
+      "offset": 26635,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 27167,
+      "offset": 26990,
       "length": 5,
       "value": "86399"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 27306,
+      "offset": 27129,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "StringLiteral",
-      "offset": 27390,
+      "offset": 27213,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 27620,
+      "offset": 27443,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 27802,
+      "offset": 27625,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 28187,
+      "offset": 28010,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "Array",
-      "offset": 44065,
+      "offset": 44457,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 44264,
+      "offset": 44656,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 44434,
+      "offset": 44826,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/StepManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 44531,
+      "offset": 44923,
       "length": 4,
       "value": "true"
     },
@@ -8451,616 +9506,616 @@
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/AdPopcornWebAdViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8262,
+      "offset": 8263,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/AdPopcornWebAdViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8336,
+      "offset": 8337,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/AdPopcornWebAdViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8578,
+      "offset": 8579,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/AdPopcornWebAdViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8583,
+      "offset": 8584,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/AdPopcornWebAdViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8694,
+      "offset": 8695,
       "length": 3,
       "value": "-12"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/AdPopcornWebAdViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8700,
+      "offset": 8701,
       "length": 2,
       "value": "-4"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/AdPopcornWebAdViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8781,
+      "offset": 8782,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/AdPopcornWebAdViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8786,
+      "offset": 8787,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/AdPopcornWebAdViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8868,
+      "offset": 8869,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/AdPopcornWebAdViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8873,
+      "offset": 8874,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1770,
+      "offset": 2195,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2128,
+      "offset": 2553,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2194,
+      "offset": 2619,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2238,
+      "offset": 2663,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2308,
+      "offset": 2733,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2485,
+      "offset": 2910,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3852,
+      "offset": 4277,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3889,
+      "offset": 4314,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4005,
+      "offset": 4430,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4217,
+      "offset": 4642,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4222,
+      "offset": 4647,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4227,
+      "offset": 4652,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4231,
+      "offset": 4656,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4236,
+      "offset": 4661,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4242,
+      "offset": 4667,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4421,
+      "offset": 4846,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4463,
+      "offset": 4888,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4531,
+      "offset": 4956,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5061,
+      "offset": 5486,
       "length": 7,
       "value": "\"xmark\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5188,
+      "offset": 5613,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5611,
+      "offset": 6036,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5760,
+      "offset": 6185,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5829,
+      "offset": 6254,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6025,
+      "offset": 6450,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6097,
+      "offset": 6522,
       "length": 3,
       "value": "102"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6101,
+      "offset": 6526,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6113,
+      "offset": 6538,
       "length": 3,
       "value": "102"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6117,
+      "offset": 6542,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6128,
+      "offset": 6553,
       "length": 3,
       "value": "102"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6132,
+      "offset": 6557,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6144,
+      "offset": 6569,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6227,
+      "offset": 6652,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6294,
+      "offset": 6719,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6475,
+      "offset": 6900,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6579,
+      "offset": 7004,
       "length": 3,
       "value": "-12"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6653,
+      "offset": 7078,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6727,
+      "offset": 7152,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6821,
+      "offset": 7246,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6922,
+      "offset": 7347,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7026,
+      "offset": 7451,
       "length": 2,
       "value": "-8"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7099,
+      "offset": 7524,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7195,
+      "offset": 7620,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7293,
+      "offset": 7718,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7394,
+      "offset": 7819,
       "length": 3,
       "value": "-16"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7466,
+      "offset": 7891,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7570,
+      "offset": 7995,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7850,
+      "offset": 8275,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8118,
+      "offset": 8543,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8167,
+      "offset": 8592,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8228,
+      "offset": 8653,
       "length": 3,
       "value": "220"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8232,
+      "offset": 8657,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8244,
+      "offset": 8669,
       "length": 3,
       "value": "220"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8248,
+      "offset": 8673,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8259,
+      "offset": 8684,
       "length": 3,
       "value": "220"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8263,
+      "offset": 8688,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8275,
+      "offset": 8700,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8332,
+      "offset": 8757,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8406,
+      "offset": 8831,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9204,
+      "offset": 9629,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9314,
+      "offset": 9739,
       "length": 2,
       "value": "-4"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9387,
+      "offset": 9812,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9461,
+      "offset": 9886,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9676,
+      "offset": 10101,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9750,
+      "offset": 10175,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15050,
+      "offset": 15721,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18649,
+      "offset": 19337,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18805,
+      "offset": 19493,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 18904,
+      "offset": 19592,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18946,
+      "offset": 19634,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30253,
+      "offset": 31491,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30293,
+      "offset": 31531,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30333,
+      "offset": 31571,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30415,
+      "offset": 31653,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 30515,
+      "offset": 31753,
       "length": 3,
       "value": "6.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30548,
+      "offset": 31786,
       "length": 27,
       "value": "\"https:\/\/www.mobwithad.com\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30604,
+      "offset": 31842,
       "length": 7,
       "value": "\"adwon\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30640,
+      "offset": 31878,
       "length": 7,
       "value": "\"adwon\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Common\/CommonAdPopupViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 35274,
+      "offset": 36905,
       "length": 1,
       "value": "0"
     },
@@ -10355,168 +11410,168 @@
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/DashboardBackgroundview.swift",
       "kind": "Array",
-      "offset": 3106,
+      "offset": 3117,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/DashboardBackgroundview.swift",
       "kind": "IntegerLiteral",
-      "offset": 3150,
+      "offset": 3161,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1004,
+      "offset": 1774,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1205,
+      "offset": 1975,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1238,
+      "offset": 2008,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1276,
+      "offset": 2046,
       "length": 3,
       "value": "244"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1280,
+      "offset": 2050,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1292,
+      "offset": 2062,
       "length": 3,
       "value": "244"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1296,
+      "offset": 2066,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1307,
+      "offset": 2077,
       "length": 3,
       "value": "244"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1311,
+      "offset": 2081,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1371,
+      "offset": 2141,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9039,
+      "offset": 9942,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9084,
+      "offset": 9987,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9183,
+      "offset": 10086,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9230,
+      "offset": 10133,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9277,
+      "offset": 10180,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9323,
+      "offset": 10226,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11526,
+      "offset": 12429,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11565,
+      "offset": 12468,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12789,
+      "offset": 13692,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12835,
+      "offset": 13738,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12882,
+      "offset": 13785,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12929,
+      "offset": 13832,
       "length": 2,
       "value": "80"
     },
@@ -10892,107 +11947,198 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUAdView.swift",
+      "kind": "Array",
+      "offset": 1374,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1418,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUAdView.swift",
+      "kind": "Dictionary",
+      "offset": 1747,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2136,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2168,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2398,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2457,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2574,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2587,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2884,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11410,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11423,
+      "length": 3,
+      "value": "250"
+    },
+    {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 249,
+      "offset": 322,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 7163,
+      "offset": 7896,
       "length": 4,
       "value": "1002"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 7264,
+      "offset": 7997,
       "length": 4,
       "value": "1003"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 7355,
+      "offset": 8088,
       "length": 4,
       "value": "1004"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 7429,
+      "offset": 8162,
       "length": 4,
       "value": "1005"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 7491,
+      "offset": 8224,
       "length": 4,
       "value": "2001"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 7547,
+      "offset": 8280,
       "length": 4,
       "value": "9999"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "StringLiteral",
-      "offset": 7869,
+      "offset": 8602,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "StringLiteral",
-      "offset": 7904,
+      "offset": 8637,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "StringLiteral",
-      "offset": 7939,
+      "offset": 8672,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8078,
+      "offset": 8811,
       "length": 10,
       "value": "\"D0000283\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8132,
+      "offset": 8865,
       "length": 10,
       "value": "\"D0000284\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8183,
+      "offset": 8916,
       "length": 10,
       "value": "\"D0000285\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8230,
+      "offset": 8963,
       "length": 10,
       "value": "\"D0000286\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
+      "kind": "Dictionary",
+      "offset": 28524,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/PointCUSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 28908,
+      "offset": 32107,
       "length": 5,
       "value": "false"
     },

@@ -21,6 +21,16 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum PointCUServerType {
+  case stg
+  case aws
+  case prod
+  public static func == (a: PointCU.PointCUServerType, b: PointCU.PointCUServerType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public enum AdsPlacementType : Swift.String, Swift.CaseIterable {
   case missionTicket
   case roulette
@@ -52,6 +62,31 @@ public enum AdsPlacementType : Swift.String, Swift.CaseIterable {
   public var rawValue: Swift.String {
     get
   }
+}
+public protocol PointCUAdViewDelegate : AnyObject {
+  func onAdLoaded()
+  func onAdFailed(error: PointCU.PointCUError)
+  func onAdClicked()
+  func onAdEarned()
+  func onAdReturned()
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class PointCUAdViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency weak final public var adDelegate: (any PointCU.PointCUAdViewDelegate)?
+  @_Concurrency.MainActor @preconcurrency final public let adContainerView: UIKit.UIView
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public init(type: PointCU.Point4uAd, adSize: CoreFoundation.CGSize = CGSize(width: 300, height: 250), delegate: (any PointCU.PointCUAdViewDelegate)? = nil)
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency final public func handleForeground()
+  @objc deinit
+}
+extension PointCU.PointCUSDK {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor public static func makeAdViewController(type: PointCU.Point4uAd, adSize: CoreFoundation.CGSize = CGSize(width: 300, height: 250), delegate: (any PointCU.PointCUAdViewDelegate)? = nil) -> PointCU.PointCUAdViewController
+  #endif
 }
 public protocol PointCUFinishDelegate : AnyObject {
   func onMoveInventory()
@@ -134,6 +169,7 @@ public enum Point4uAd : Swift.String {
   public static func isRegistered() -> Swift.Bool
   public static func notifyMoveInventory()
   public static func setDevServer(useAws: Swift.Bool)
+  public static func setServerType(_ type: PointCU.PointCUServerType)
   public static func getStepCount(completion: @escaping (Swift.Int) -> Swift.Void)
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) public static func getStepCount() async -> Swift.Int
@@ -155,6 +191,8 @@ public enum Point4uAd : Swift.String {
   #endif
   @objc deinit
 }
+extension PointCU.PointCUServerType : Swift.Equatable {}
+extension PointCU.PointCUServerType : Swift.Hashable {}
 extension PointCU.AdsPlacementType : Swift.Equatable {}
 extension PointCU.AdsPlacementType : Swift.Hashable {}
 extension PointCU.AdsPlacementType : Swift.RawRepresentable {}
