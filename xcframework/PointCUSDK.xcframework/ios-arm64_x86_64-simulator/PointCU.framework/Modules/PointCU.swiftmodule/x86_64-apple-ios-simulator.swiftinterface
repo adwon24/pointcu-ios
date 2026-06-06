@@ -171,9 +171,6 @@ public enum Point4uAd : Swift.String {
   public static func setDevServer(useAws: Swift.Bool)
   public static func setServerType(_ type: PointCU.PointCUServerType)
   public static func getStepCount(completion: @escaping (Swift.Int) -> Swift.Void)
-  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) public static func getStepCount() async -> Swift.Int
-  #endif
   #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   @_Concurrency.MainActor public static func startGameRoulette(delegate: (any PointCU.PointCUGameDelegate)? = nil) -> Swift.Bool
