@@ -4912,7 +4912,7 @@
       "kind": "StringLiteral",
       "offset": 484,
       "length": 7,
-      "value": "\"1.0.3\""
+      "value": "\"1.0.4\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
@@ -7836,966 +7836,966 @@
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 8386,
+      "offset": 8387,
       "length": 10,
       "value": "\"ad_popup\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 8424,
+      "offset": 8425,
       "length": 13,
       "value": "\"app_version\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 8482,
+      "offset": 8483,
       "length": 12,
       "value": "\"admob_type\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 8849,
+      "offset": 8850,
       "length": 13,
       "value": "\"member_code\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 8892,
+      "offset": 8893,
       "length": 10,
       "value": "\"sdk_code\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 8976,
+      "offset": 8977,
       "length": 13,
       "value": "\"update_date\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 9020,
+      "offset": 9021,
       "length": 18,
       "value": "\"badge_display_yn\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 9068,
+      "offset": 9069,
       "length": 13,
       "value": "\"withdraw_yn\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 9594,
+      "offset": 9595,
       "length": 10,
       "value": "\"popup_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 9655,
+      "offset": 9656,
       "length": 11,
       "value": "\"link_type\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 9698,
+      "offset": 9699,
       "length": 11,
       "value": "\"link_data\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 9741,
+      "offset": 9742,
       "length": 14,
       "value": "\"notice_title\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 9787,
+      "offset": 9788,
       "length": 16,
       "value": "\"notice_content\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 9835,
+      "offset": 9836,
       "length": 17,
       "value": "\"notice_reg_date\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 9886,
+      "offset": 9887,
       "length": 21,
       "value": "\"offerwall_detail_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 9941,
+      "offset": 9942,
       "length": 19,
       "value": "\"service_detail_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 9992,
+      "offset": 9993,
       "length": 15,
       "value": "\"display_order\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 10280,
+      "offset": 10281,
       "length": 8,
       "value": "\"sdk_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 10328,
+      "offset": 10329,
       "length": 18,
       "value": "\"shop_supply_type\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 10386,
+      "offset": 10387,
       "length": 19,
       "value": "\"data_gathering_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 10446,
+      "offset": 10447,
       "length": 29,
       "value": "\"offerwall_service_code_list\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 10657,
+      "offset": 10658,
       "length": 11,
       "value": "\"detail_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 10950,
+      "offset": 10951,
       "length": 13,
       "value": "\"banner_list\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 11364,
+      "offset": 11365,
       "length": 11,
       "value": "\"detail_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 11423,
+      "offset": 11424,
       "length": 15,
       "value": "\"display_order\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 11467,
+      "offset": 11468,
       "length": 13,
       "value": "\"banner_info\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 12003,
+      "offset": 12004,
       "length": 11,
       "value": "\"banner_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 12067,
+      "offset": 12068,
       "length": 21,
       "value": "\"banner_content_type\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 12122,
+      "offset": 12123,
       "length": 19,
       "value": "\"description_upper\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 12175,
+      "offset": 12176,
       "length": 19,
       "value": "\"description_lower\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 12228,
+      "offset": 12229,
       "length": 11,
       "value": "\"link_type\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 12273,
+      "offset": 12274,
       "length": 11,
       "value": "\"link_data\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 12318,
+      "offset": 12319,
       "length": 21,
       "value": "\"offerwall_detail_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 12373,
+      "offset": 12374,
       "length": 19,
       "value": "\"service_detail_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 12844,
+      "offset": 12845,
       "length": 12,
       "value": "\"mission_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 12887,
+      "offset": 12888,
       "length": 13,
       "value": "\"target_step\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 12931,
+      "offset": 12932,
       "length": 12,
       "value": "\"step_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 13041,
+      "offset": 13042,
       "length": 14,
       "value": "\"ticket_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 13086,
+      "offset": 13087,
       "length": 18,
       "value": "\"ticket_use_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 13135,
+      "offset": 13136,
       "length": 14,
       "value": "\"ticket_limit\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 13180,
+      "offset": 13181,
       "length": 11,
       "value": "\"win_point\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 13270,
+      "offset": 13271,
       "length": 12,
       "value": "\"mission_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 13313,
+      "offset": 13314,
       "length": 13,
       "value": "\"target_step\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 13357,
+      "offset": 13358,
       "length": 12,
       "value": "\"step_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 13400,
+      "offset": 13401,
       "length": 14,
       "value": "\"ticket_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 13445,
+      "offset": 13446,
       "length": 18,
       "value": "\"ticket_use_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 13494,
+      "offset": 13495,
       "length": 14,
       "value": "\"ticket_limit\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 13539,
+      "offset": 13540,
       "length": 11,
       "value": "\"win_point\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 15379,
+      "offset": 15380,
       "length": 16,
       "value": "\"mediation_list\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 15425,
+      "offset": 15426,
       "length": 15,
       "value": "\"pangle_app_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 15470,
+      "offset": 15471,
       "length": 15,
       "value": "\"unity_game_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 15826,
+      "offset": 15827,
       "length": 24,
       "value": "\"advertisement_location\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 15892,
+      "offset": 15893,
       "length": 29,
       "value": "\"advertisement_location_name\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 15963,
+      "offset": 15964,
       "length": 20,
       "value": "\"advertisement_list\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 16314,
+      "offset": 16315,
       "length": 15,
       "value": "\"priority_code\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 16358,
+      "offset": 16359,
       "length": 15,
       "value": "\"priority_name\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 16402,
+      "offset": 16403,
       "length": 8,
       "value": "\"ad_key\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 17388,
+      "offset": 17389,
       "length": 12,
       "value": "\"benefit_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 17441,
+      "offset": 17442,
       "length": 13,
       "value": "\"trial_point\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 17495,
+      "offset": 17496,
       "length": 11,
       "value": "\"max_point\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 17547,
+      "offset": 17548,
       "length": 13,
       "value": "\"today_point\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 17601,
+      "offset": 17602,
       "length": 28,
       "value": "\"member_participation_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 17670,
+      "offset": 17671,
       "length": 22,
       "value": "\"background_image_url\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 17733,
+      "offset": 17734,
       "length": 14,
       "value": "\"benefit_type\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 17788,
+      "offset": 17789,
       "length": 20,
       "value": "\"roulette_image_url\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 17849,
+      "offset": 17850,
       "length": 26,
       "value": "\"roulette_arrow_image_url\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 17916,
+      "offset": 17917,
       "length": 25,
       "value": "\"roulette_text_image_url\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 17982,
+      "offset": 17983,
       "length": 27,
       "value": "\"lottery_scratch_image_url\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 18050,
+      "offset": 18051,
       "length": 24,
       "value": "\"lottery_text_image_url\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 18115,
+      "offset": 18116,
       "length": 17,
       "value": "\"display_time_yn\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 18173,
+      "offset": 18174,
       "length": 12,
       "value": "\"start_time\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 18226,
+      "offset": 18227,
       "length": 10,
       "value": "\"end_time\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 18299,
+      "offset": 18300,
       "length": 11,
       "value": "\"data_list\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 18351,
+      "offset": 18352,
       "length": 14,
       "value": "\"ticket_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 18406,
+      "offset": 18407,
       "length": 18,
       "value": "\"ticket_use_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 18465,
+      "offset": 18466,
       "length": 14,
       "value": "\"ticket_limit\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 18520,
+      "offset": 18521,
       "length": 17,
       "value": "\"ticket_limit_yn\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 18723,
+      "offset": 18724,
       "length": 13,
       "value": "\"roulette_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 18763,
+      "offset": 18764,
       "length": 13,
       "value": "\"start_angle\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 18803,
+      "offset": 18804,
       "length": 11,
       "value": "\"end_angle\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "FloatLiteral",
-      "offset": 18942,
+      "offset": 18943,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 19658,
+      "offset": 19659,
       "length": 14,
       "value": "\"ticket_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 19713,
+      "offset": 19714,
       "length": 18,
       "value": "\"ticket_use_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 19772,
+      "offset": 19773,
       "length": 14,
       "value": "\"ticket_limit\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 19827,
+      "offset": 19828,
       "length": 12,
       "value": "\"benefit_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 19880,
+      "offset": 19881,
       "length": 17,
       "value": "\"win_roulette_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 19938,
+      "offset": 19939,
       "length": 11,
       "value": "\"win_point\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 19990,
+      "offset": 19991,
       "length": 13,
       "value": "\"trial_point\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 20044,
+      "offset": 20045,
       "length": 11,
       "value": "\"max_point\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 20096,
+      "offset": 20097,
       "length": 13,
       "value": "\"today_point\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 20150,
+      "offset": 20151,
       "length": 14,
       "value": "\"benefit_type\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 20205,
+      "offset": 20206,
       "length": 28,
       "value": "\"member_participation_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 20592,
+      "offset": 20593,
       "length": 12,
       "value": "\"benefit_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 20635,
+      "offset": 20636,
       "length": 14,
       "value": "\"ticket_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 20680,
+      "offset": 20681,
       "length": 18,
       "value": "\"ticket_use_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 20729,
+      "offset": 20730,
       "length": 14,
       "value": "\"ticket_limit\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 22166,
+      "offset": 22167,
       "length": 22,
       "value": "\"moneybox_schedule_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 22223,
+      "offset": 22224,
       "length": 13,
       "value": "\"moneybox_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 22271,
+      "offset": 22272,
       "length": 12,
       "value": "\"start_time\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 22318,
+      "offset": 22319,
       "length": 10,
       "value": "\"end_time\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 22363,
+      "offset": 22364,
       "length": 21,
       "value": "\"participation_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 22419,
+      "offset": 22420,
       "length": 21,
       "value": "\"participation_limit\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 22494,
+      "offset": 22495,
       "length": 21,
       "value": "\"display_description\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 22550,
+      "offset": 22551,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 22831,
+      "offset": 22832,
       "length": 13,
       "value": "\"moneybox_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 22879,
+      "offset": 22880,
       "length": 22,
       "value": "\"moneybox_schedule_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 22936,
+      "offset": 22937,
       "length": 11,
       "value": "\"win_point\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 22982,
+      "offset": 22983,
       "length": 21,
       "value": "\"participation_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 23038,
+      "offset": 23039,
       "length": 21,
       "value": "\"participation_limit\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 23316,
+      "offset": 23317,
       "length": 11,
       "value": "\"data_list\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 23996,
+      "offset": 23997,
       "length": 12,
       "value": "\"benefit_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 24049,
+      "offset": 24050,
       "length": 14,
       "value": "\"benefit_type\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 24104,
+      "offset": 24105,
       "length": 13,
       "value": "\"title_upper\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 24158,
+      "offset": 24159,
       "length": 13,
       "value": "\"title_lower\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 24212,
+      "offset": 24213,
       "length": 21,
       "value": "\"participation_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 24274,
+      "offset": 24275,
       "length": 23,
       "value": "\"participation_payment\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 24338,
+      "offset": 24339,
       "length": 17,
       "value": "\"ticket_limit_yn\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 24396,
+      "offset": 24397,
       "length": 28,
       "value": "\"member_participation_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 24465,
+      "offset": 24466,
       "length": 17,
       "value": "\"display_time_yn\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 24523,
+      "offset": 24524,
       "length": 12,
       "value": "\"start_time\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 24576,
+      "offset": 24577,
       "length": 10,
       "value": "\"end_time\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 24833,
+      "offset": 24834,
       "length": 13,
       "value": "\"total_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 24874,
+      "offset": 24875,
       "length": 13,
       "value": "\"notice_list\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 25207,
+      "offset": 25208,
       "length": 11,
       "value": "\"notice_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 25245,
+      "offset": 25246,
       "length": 14,
       "value": "\"notice_title\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 25286,
+      "offset": 25287,
       "length": 16,
       "value": "\"notice_content\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 25329,
+      "offset": 25330,
       "length": 13,
       "value": "\"position_yn\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 25369,
+      "offset": 25370,
       "length": 10,
       "value": "\"reg_date\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 25406,
+      "offset": 25407,
       "length": 10,
       "value": "\"popup_yn\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 25443,
+      "offset": 25444,
       "length": 13,
       "value": "\"regist_date\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 25999,
+      "offset": 26000,
       "length": 8,
       "value": "\"use_yn\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 26315,
+      "offset": 26316,
       "length": 11,
       "value": "\"step_date\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 26352,
+      "offset": 26353,
       "length": 12,
       "value": "\"step_count\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 26598,
+      "offset": 26599,
       "length": 15,
       "value": "\"inspection_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 26849,
+      "offset": 26850,
       "length": 12,
       "value": "\"popup_list\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 27106,
+      "offset": 27107,
       "length": 10,
       "value": "\"popup_id\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 27183,
+      "offset": 27184,
       "length": 13,
       "value": "\"position_yn\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Models\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 27223,
+      "offset": 27224,
       "length": 10,
       "value": "\"reg_date\""
     },
@@ -11448,154 +11448,154 @@
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1774,
+      "offset": 1778,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1975,
+      "offset": 1979,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2008,
+      "offset": 2012,
       "length": 1,
       "value": "8"
-    },
-    {
-      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2046,
-      "length": 3,
-      "value": "244"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
       "offset": 2050,
       "length": 3,
-      "value": "255"
+      "value": "244"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2062,
+      "offset": 2054,
       "length": 3,
-      "value": "244"
+      "value": "255"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
       "offset": 2066,
       "length": 3,
-      "value": "255"
+      "value": "244"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2077,
+      "offset": 2070,
       "length": 3,
-      "value": "244"
+      "value": "255"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
       "offset": 2081,
       "length": 3,
+      "value": "244"
+    },
+    {
+      "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2085,
+      "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2141,
+      "offset": 2145,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9942,
+      "offset": 9945,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9987,
+      "offset": 9990,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10086,
+      "offset": 10089,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10133,
+      "offset": 10136,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10180,
+      "offset": 10183,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10226,
+      "offset": 10229,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12429,
+      "offset": 12570,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12468,
+      "offset": 12609,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13692,
+      "offset": 13833,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13738,
+      "offset": 13879,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13785,
+      "offset": 13926,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Views\/Main\/MainBenefitListView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13832,
+      "offset": 13973,
       "length": 2,
       "value": "80"
     },
