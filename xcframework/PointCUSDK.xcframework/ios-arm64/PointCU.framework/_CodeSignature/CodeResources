@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		iZlbsD8yGAfLJ4MSR25LQtJxMzs=
+		SRT2F7uwwS7OAC9niXiklHJ4fXk=
 		</data>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		p5V/U4wd8NzCC3Z9aBtOe2UOHKs=
+		ZyzLvuUS4Ck8XnSBkfM1IEqq1ss=
 		</data>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		p5V/U4wd8NzCC3Z9aBtOe2UOHKs=
+		ZyzLvuUS4Ck8XnSBkfM1IEqq1ss=
 		</data>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		u5EGl7R1+gXqfzVGUZqZVaOHRCU=
+		ldiPoxoVJH0ySupVUNEQ528OvjU=
 		</data>
 		<key>Roboto-Bold.ttf</key>
 		<data>
@@ -52,10 +52,6 @@
 		<data>
 		/G+SgcQKCIvr9LakCceUdJkZLrw=
 		</data>
-		<key>codes.zip</key>
-		<data>
-		1Zwh/9C2Sm0gXIcrcribvSMxGNQ=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -70,14 +66,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g5eHlbgFMXsmYoPuyJTut67az7mHcg71bSZ9Mxr+QHY=
+			HkyzvmeulNs5K3kSdZQwtm4GTn7ZWnd2uiOLzbAZonY=
 			</data>
 		</dict>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XDh410vMXXoQSxOEKrROEmFSzU1olIOztt7NeFuGKck=
+			K5Ouax32r5q8VnHmxM+NJgerhfQE91I8+liwnUI44zE=
 			</data>
 		</dict>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -91,14 +87,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XDh410vMXXoQSxOEKrROEmFSzU1olIOztt7NeFuGKck=
+			K5Ouax32r5q8VnHmxM+NJgerhfQE91I8+liwnUI44zE=
 			</data>
 		</dict>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vKDSa1LS9wxxiHi/vw+R+k+wLeW8LW6ktfa+vhv0CVs=
+			1ZI0fLnH7ihDhOOQLC8QC9ZjN036BW5DsjFeN6C4s6U=
 			</data>
 		</dict>
 		<key>Roboto-Bold.ttf</key>
@@ -134,13 +130,6 @@
 			<key>hash2</key>
 			<data>
 			6uvwoZoRg4WToJ2mFtLSb6KbVyDD3ASCGZ+xDRRBO6Q=
-			</data>
-		</dict>
-		<key>codes.zip</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Y9E/ECiWmDQJYljPICr0LIN2d25JhSIEIrsjHOtYFos=
 			</data>
 		</dict>
 	</dict>

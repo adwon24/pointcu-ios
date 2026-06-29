@@ -2,7 +2,6 @@
 // swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PointCU
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
-import AdPopcornSSP
 import AdSupport
 import AppTrackingTransparency
 import Combine
@@ -28,6 +27,28 @@ public enum PointCUServerType {
   public static func == (a: PointCU.PointCUServerType, b: PointCU.PointCUServerType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum AdsType : Swift.String, Swift.CaseIterable {
+  case adPopcornBanner
+  case adPopcornReward
+  case adPopcornFull
+  case adPopcornRewardBanner
+  case mobiWithPopup
+  case adPopcornBannerPopup
+  case adPopcornNAMBanner
+  case unknown
+  public static func parse(_ code: Swift.String) -> PointCU.AdsType
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias AllCases = [PointCU.AdsType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [PointCU.AdsType] {
+    get
+  }
+  public var rawValue: Swift.String {
     get
   }
 }
@@ -190,6 +211,9 @@ public enum Point4uAd : Swift.String {
 }
 extension PointCU.PointCUServerType : Swift.Equatable {}
 extension PointCU.PointCUServerType : Swift.Hashable {}
+extension PointCU.AdsType : Swift.Equatable {}
+extension PointCU.AdsType : Swift.Hashable {}
+extension PointCU.AdsType : Swift.RawRepresentable {}
 extension PointCU.AdsPlacementType : Swift.Equatable {}
 extension PointCU.AdsPlacementType : Swift.Hashable {}
 extension PointCU.AdsPlacementType : Swift.RawRepresentable {}
