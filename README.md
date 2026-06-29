@@ -56,6 +56,7 @@ v2.0.0부터 APSSPSDK가 3.x로 업그레이드되었습니다.
 | `GFPAdManagerDelegate` | AppDelegate에서 제거 |
 | `import NAMSDK` | AppDelegate에서 제거 |
 
+
 ### 추가/교체해야 할 것
 
 | 항목 | 설명 |
@@ -64,6 +65,20 @@ v2.0.0부터 APSSPSDK가 3.x로 업그레이드되었습니다.
 | `APSSPSDK` Pod | 3.1.7 이상으로 업그레이드 |
 | 미디에이션 어댑터 Pod | 아래 버전으로 업그레이드 |
 | AppDelegate 초기화 코드 | 아래 3. SDK 초기화 참조 |
+
+### SPM AdPopcornSSP 중복 참조 제거
+
+v2.0.0부터 `AdPopcornSSP`가 SPM dependency에서 제거되었습니다.  
+기존에 SPM으로 `AdPopcornSSP`가 추가되어 있던 경우, CocoaPods(`APSSPSDK`)과 중복 참조되므로 반드시 제거해야 합니다.
+
+1. **기존 `AdPopcornSSP` SPM 패키지 삭제**  
+   Xcode 좌측 `Package Dependencies`에서 `AdPopcornSSP` 선택 후 제거
+
+2. **PointCU 패키지 업데이트**  
+   `File → Packages → Update to Latest Package Versions`
+
+3. **빌드 확인**  
+   `Package Dependencies`에 `AdPopcornSSP`가 나타나지 않으면 정상
 
 ---
 
