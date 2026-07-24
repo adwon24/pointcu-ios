@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
-// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PointCU
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PointCU
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 import AdSupport
 import AppTrackingTransparency
 import Combine
@@ -40,9 +40,7 @@ public enum AdsType : Swift.String, Swift.CaseIterable {
   case adPopcornNAMBanner
   case unknown
   public static func parse(_ code: Swift.String) -> PointCU.AdsType
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [PointCU.AdsType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [PointCU.AdsType] {
@@ -72,9 +70,7 @@ public enum AdsPlacementType : Swift.String, Swift.CaseIterable {
   public var isBanner: Swift.Bool {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [PointCU.AdsPlacementType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [PointCU.AdsPlacementType] {
@@ -94,9 +90,7 @@ public protocol PointCUAdViewDelegate : AnyObject {
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class PointCUAdViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency weak final public var adDelegate: (any PointCU.PointCUAdViewDelegate)?
   @_Concurrency.MainActor @preconcurrency final public let adContainerView: UIKit.UIView
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(type: PointCU.Point4uAd, adSize: CoreFoundation.CGSize = CGSize(width: 300, height: 250), delegate: (any PointCU.PointCUAdViewDelegate)? = nil)
-  #endif
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLayoutSubviews()
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidAppear(_ animated: Swift.Bool)
@@ -105,9 +99,7 @@ public protocol PointCUAdViewDelegate : AnyObject {
   @objc deinit
 }
 extension PointCU.PointCUSDK {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public static func makeAdViewController(type: PointCU.Point4uAd, adSize: CoreFoundation.CGSize = CGSize(width: 300, height: 250), delegate: (any PointCU.PointCUAdViewDelegate)? = nil) -> PointCU.PointCUAdViewController
-  #endif
 }
 public protocol PointCUFinishDelegate : AnyObject {
   func onMoveInventory()
@@ -118,21 +110,11 @@ public protocol PointCUGameDelegate : AnyObject {
   func onGameClose()
 }
 public protocol PointCUAdDelegate : AnyObject {
-  #if compiler(>=5.3) && $NonescapableTypes
   func onAdShow(type: PointCU.Point4uAd?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func onAdFail(type: PointCU.Point4uAd?, error: PointCU.PointCUError)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func onAdClose(type: PointCU.Point4uAd?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func onAdEarned(type: PointCU.Point4uAd?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func onAdClick(type: PointCU.Point4uAd?)
-  #endif
 }
 public enum PointCUErrorCode : Swift.Int {
   case invalidBirthFormat
@@ -141,9 +123,7 @@ public enum PointCUErrorCode : Swift.Int {
   case notRegistered
   case noAdAvailable
   case unknown
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -158,9 +138,7 @@ public enum PointCUGender : Swift.String {
   case male
   case female
   case unknown
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -171,43 +149,33 @@ public enum Point4uAd : Swift.String {
   case inventory
   case newProduct
   case preOrder
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
 @_hasMissingDesignatedInitializers public class PointCUSDK {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public static func makeMainView(userId: Swift.String, birth: Swift.String? = nil, age: Swift.Int? = nil, gender: PointCU.PointCUGender, finishDelegate: (any PointCU.PointCUFinishDelegate)? = nil) -> some SwiftUICore.View
   
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public static func makeMainViewController(userId: Swift.String, birth: Swift.String? = nil, age: Swift.Int? = nil, gender: PointCU.PointCUGender, finishDelegate: (any PointCU.PointCUFinishDelegate)? = nil) -> UIKit.UIViewController
-  #endif
   public static func isRegistered() -> Swift.Bool
   public static func notifyMoveInventory()
   public static func setDevServer(useAws: Swift.Bool)
   public static func setServerType(_ type: PointCU.PointCUServerType)
   public static func getStepCount(completion: @escaping (Swift.Int) -> Swift.Void)
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   @_Concurrency.MainActor public static func startGameRoulette(delegate: (any PointCU.PointCUGameDelegate)? = nil) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   @_Concurrency.MainActor public static func startGameLottery(delegate: (any PointCU.PointCUGameDelegate)? = nil) -> Swift.Bool
-  #endif
   @_Concurrency.MainActor public static func clearUserData()
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public static func startAdvertise(placement: PointCU.AdsPlacementType, userId: Swift.String, onComplete: (() -> Swift.Void)? = nil, onFail: (() -> Swift.Void)? = nil, onClose: (() -> Swift.Void)? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public static func startPoint4uAdvertise(type: PointCU.Point4uAd, delegate: (any PointCU.PointCUAdDelegate)? = nil, onComplete: (() -> Swift.Void)? = nil, onFail: (() -> Swift.Void)? = nil)
-  #endif
   @objc deinit
+}
+extension PointCU.PointCUSDK {
+  @_Concurrency.MainActor public static func startAdTest(placement: PointCU.AdsPlacementType, adIndex: Swift.Int, onLoad: (() -> Swift.Void)? = nil, onComplete: ((_ adName: Swift.String) -> Swift.Void)? = nil, onFail: (() -> Swift.Void)? = nil, onClose: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor public static func firstAdType(for placement: PointCU.AdsPlacementType, adIndex: Swift.Int) -> PointCU.AdsType
 }
 extension PointCU.PointCUServerType : Swift.Equatable {}
 extension PointCU.PointCUServerType : Swift.Hashable {}
