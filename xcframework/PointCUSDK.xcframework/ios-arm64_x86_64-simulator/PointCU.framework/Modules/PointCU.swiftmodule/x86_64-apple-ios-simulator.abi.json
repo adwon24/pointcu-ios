@@ -5694,7 +5694,7 @@
       "kind": "StringLiteral",
       "offset": 341,
       "length": 7,
-      "value": "\"2.0.3\""
+      "value": "\"2.0.4\""
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Common\/Constants.swift",
@@ -7624,21 +7624,21 @@
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/AdPopcornAdDelegate.swift",
       "kind": "IntegerLiteral",
-      "offset": 5685,
+      "offset": 994,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/AdPopcornAdDelegate.swift",
       "kind": "IntegerLiteral",
-      "offset": 6152,
+      "offset": 1461,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Works\/Projects\/iOS\/PointCU\/PointCU\/PointCU\/Managers\/AdPopcornAdDelegate.swift",
       "kind": "IntegerLiteral",
-      "offset": 7207,
+      "offset": 2516,
       "length": 13,
       "value": "8000000000"
     },
