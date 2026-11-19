@@ -9,8 +9,8 @@ Swift Package Manager(SPM)를 통해 배포되며, UIKit / SwiftUI 모두 지원
 
 | 버전    | 날짜         | 내용                                                      |
 | ----- | ---------- | ------------------------------------------------------- |
-| 2.0.6 | 2026.11.19 | Xcode 26(Swift 6.3.3) 빌드 적용 |
-| 2.0.5 | 2026.11.19 | 나스미디어 2.0.7 적용 및 게임 화면 인터페이스 수정 |
+| 2.0.6 | 2026.11.19 | Xcode 26.6(Swift 6.3.3) 빌드 적용 — 2.0.5와 기능 동일 |
+| 2.0.5 | 2026.11.19 | 나스미디어 2.0.7 적용, 게임 화면 인터페이스 수정, `getStepCount(userId:)` 추가 |
 | 2.0.4 | 2026.07.29 | APSSPSDK 3.2.4 UPDATE 적용 |
 | 2.0.3 | 2026.07.29 | APSSPSDK 3.2.3 UPDATE 적용 |
 | 2.0.2 | 2026.07.24 | Package.swift 버전 변경 및 서비스가이드 버그 수정 |
@@ -33,6 +33,12 @@ Swift Package Manager(SPM)를 통해 배포되며, UIKit / SwiftUI 모두 지원
 | 최소 iOS 버전 | iOS 15.0 이상                 |
 | 개발 언어     | Swift 5.9+                  |
 | 배포 방식     | Swift Package Manager (SPM) |
+| 빌드 Xcode  | Xcode 26.6 (Swift 6.3.3)    |
+
+> ※ **Xcode 버전 안내**
+> xcframework의 `.swiftinterface`는 상위 호환만 됩니다. 즉 **SDK 빌드에 사용된 Xcode보다 낮은 버전의 Xcode에서는 빌드할 수 없습니다.**
+> 현재 SDK는 메인앱 환경에 맞춰 Xcode 26.6으로 빌드하고 있으므로 Xcode 26.6 이상에서 사용 가능합니다.
+> 메인앱에서 Xcode 버전을 변경하실 계획이 있으면 사전에 알려주시기 바랍니다. 해당 버전에 맞춰 재빌드가 필요합니다.
 
 ---
 
@@ -100,10 +106,14 @@ Xcode에서 아래 순서로 패키지를 추가합니다.
 
 **PointCUSDK에 포함된 의존성 (자동 설치):**
 
-| 패키지               | 버전         | 용도           |
-| ----------------- | ---------- | ------------ |
-| GreenPOfferWall   | 4.2.0+     | 그린P 오퍼월      |
-| NStationOfferwall | 1.9.8 (고정) | NStation 오퍼월 |
+| 패키지               | 버전              | 용도                         |
+| ----------------- | --------------- | -------------------------- |
+| GreenPOfferWall   | 4.2.0+          | 그린P 오퍼월                    |
+| NStationOfferwall | 2.0.7 ..< 2.1.0 | 나스미디어 nap reward (오퍼월·게임)  |
+
+> ※ v2.0.5부터 나스미디어 SDK가 **nap reward v2(2.x)** 로 마이그레이션되었습니다.
+> 기존 1.9.8 고정에서 2.0.x 범위로 변경되었으므로, 업데이트 후 `Package.resolved`에서
+> `iOS-RWD-SPM`이 2.x로 잡혔는지 확인해 주시기 바랍니다.
 
 > ※ v2.0.0부터 `AdPopcornSSP`(구버전) 의존성이 제거되었습니다.  
 > `APSSPSDK` 및 미디에이션 어댑터는 아래 1.2에서 CocoaPods으로 별도 설치합니다.
@@ -386,14 +396,51 @@ PointCUSDK.startGameLottery(delegate: self)
 
 ### 걸음 수 확인
 
+SDK 메인 화면에 진입하지 않은 상태에서도 오늘의 걸음 수를 조회할 수 있습니다.
+
 ```swift
-PointCUSDK.getStepCount { steps in
+PointCUSDK.getStepCount(userId: "user_id_here") { steps in
     if steps == -1 {
         // 모션 권한 없음
     } else {
         print("오늘 걸음수: \(steps)보")
     }
 }
+```
+
+#### 파라미터
+
+| 파라미터       | 타입            | 필수 | 설명                                        |
+| ---------- | ------------- | -- | ----------------------------------------- |
+| userId     | String        | 필수 | `makeMainViewController`에 전달하는 값과 **동일한 값** |
+| completion | (Int) -> Void | 필수 | 걸음 수 콜백 (메인 스레드로 반환)                      |
+
+#### 반환값
+
+| 값     | 의미                                                  |
+| ----- | --------------------------------------------------- |
+| 0 이상  | 오늘 걸음 수                                             |
+| -1    | 모션 권한 없음 (단, 권한이 꺼지기 전 오늘 측정된 값이 있으면 그 값을 반환)        |
+| 0     | 걸음 데이터 소유자와 전달된 `userId`가 다른 경우                     |
+
+#### ⚠️ userId 주의사항
+
+이 파라미터는 **걸음 데이터의 소유자를 확인**하는 용도입니다. 로그아웃 후 다른 계정으로 로그인했을 때 이전 사용자의 걸음 수가 노출되는 것을 방지합니다.
+
+- `makeMainViewController(userId:)`에 전달하는 값과 **반드시 같은 값**을 사용해야 합니다.
+- 다른 값(단말 식별자 등)을 전달하면 **오류가 발생하지 않고 항상 0이 반환**됩니다. 연동은 정상인데 걸음 수가 계속 0으로 보이면 이 경우를 먼저 확인하시기 바랍니다.
+- 최초 설치 등 소유자 정보가 없는 상태에서는 검사를 건너뛰고 정상적으로 걸음 수를 반환합니다.
+
+#### v2.0.5 이전 버전과의 차이
+
+`userId` 없이 호출하는 기존 함수는 **deprecated** 되었습니다. 다른 계정으로 로그인한 직후 이전 사용자의 걸음 수가 반환될 수 있으므로 신규 함수로 교체해 주시기 바랍니다.
+
+```swift
+// ❌ deprecated — 계정 변경 직후 이전 사용자의 값이 반환될 수 있음
+PointCUSDK.getStepCount { steps in ... }
+
+// ✅ v2.0.5 이상
+PointCUSDK.getStepCount(userId: "user_id_here") { steps in ... }
 ```
 
 ### CU 자체 광고 — 팝업 방식 (startPoint4uAdvertise)
@@ -537,7 +584,9 @@ PointCUSDK.clearUserData()
 - SDK 메인 화면은 `fullScreen` 방식으로 present 합니다.
 - `makeAdViewController`의 `addChild`는 반드시 `viewDidAppear` 이후에 호출해야 합니다.
 - ATT 권한 요청은 SDK 진입 시 자동 처리됩니다. 메인앱에서 별도 요청이 불필요합니다.
-- `clearUserData()` 호출 시 SDK가 보관 중인 사용자 데이터만 삭제됩니다. 메인앱 데이터에는 영향을 주지 않습니다.
+- `clearUserData()` 호출 시 SDK가 보관 중인 사용자 데이터만 삭제됩니다. 메인앱 데이터에는 영향을 주지 않습니다. 걸음 데이터는 보존되며, 같은 계정으로 재로그인하면 기존 걸음 수와 측정 상태가 그대로 이어집니다.
+- `getStepCount(userId:)`의 `userId`는 `makeMainViewController(userId:)`와 동일한 값을 사용해야 합니다. 값이 다르면 오류 없이 0이 반환됩니다.
+- SDK는 메인앱 환경에 맞춰 Xcode 26.6으로 빌드됩니다. 그보다 낮은 Xcode에서는 빌드할 수 없으므로, 메인앱의 Xcode 버전 변경 시 사전 공유가 필요합니다.
 - `User Script Sandboxing`을 `No`로 설정하지 않으면 KissXML 관련 빌드 오류가 발생합니다.
 - v2.0.0부터 `NAMAdapter` 파일 및 `NAMSDK` Pod이 더 이상 필요하지 않습니다.
 
