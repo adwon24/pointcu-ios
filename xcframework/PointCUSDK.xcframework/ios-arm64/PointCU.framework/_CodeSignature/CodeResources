@@ -6,31 +6,31 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		HlWV0mqQYOtWa5ZSX+hjCCpYTOU=
+		T52kcNC9ZRDum7ZMMnYLMtWe5mI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yrZnd2kuLZ0ccy9SQLWWD9zQoSk=
+		hvo3BrzcLjMiZp0pmh0NO5qU1hw=
 		</data>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		YuC2BYuPLxwZdgdnWpYL/mfKbVY=
+		Xky1zqgEIeVijr5zESBdZweyTwk=
 		</data>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		P4h3I4lDXsb2AjZOmOKHA29MHgI=
+		bINR/4MrgI052uVjbIumkfhpc8E=
 		</data>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Vznvv/nCWw/uSlCg7K7v5vSDzAo=
+		mRJ5sFMuqLEYJ3intbGDnWsmJOo=
 		</data>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		P4h3I4lDXsb2AjZOmOKHA29MHgI=
+		bINR/4MrgI052uVjbIumkfhpc8E=
 		</data>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		h4hVlSkcGZZx0oT0oitQIiPZcv4=
+		AD+mILzAvbM7Cspudg9rZw5lL84=
 		</data>
 		<key>Roboto-Bold.ttf</key>
 		<data>
@@ -59,42 +59,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AIhPNuYju0zz+R6auKkY8luoMjYk1u82uoHLq2aS7uM=
+			z8N8TlUwbs7Ay83PXnRLSDfI6hCcGygYxRDNEbGGyNo=
 			</data>
 		</dict>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bShrsopg9rSxSQNcH8ygqEJ2TP4LNM5UiQNSrAHnRck=
+			N6Cdrwg5HJG5NqIGjZCreCzqFaAVQvUu2Ucpl2U9yh0=
 			</data>
 		</dict>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c9+zEZfA0WNUpG6GR+ifoqnOJWtqyNw/W3mG/WZTk9M=
+			tI1juXwNvBED3ae8oGENyRndwpfCtbISBa956OxzlKs=
 			</data>
 		</dict>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jkgBLrWrhICcMk3Q7nYLObHXhj2r7BeL3ueyKPz+mZk=
+			T+hyQx04Ib2PwhfPb6xaJDgffMJaUoN5php/Kg/Uv1U=
 			</data>
 		</dict>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c9+zEZfA0WNUpG6GR+ifoqnOJWtqyNw/W3mG/WZTk9M=
+			tI1juXwNvBED3ae8oGENyRndwpfCtbISBa956OxzlKs=
 			</data>
 		</dict>
 		<key>Modules/PointCU.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+8RyepAdULQDF0JuYWP8PLSbYbHFVIv4CjZm7EcfZ+Y=
+			eFvoNG6moGoeIgzzZpJ7c1203mSOjjj0cBB8bwJlxZQ=
 			</data>
 		</dict>
 		<key>Roboto-Bold.ttf</key>
